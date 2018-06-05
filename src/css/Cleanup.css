@@ -1,0 +1,63 @@
+/* Hide things we don't want */
+.mobile,
+#delform .mobile.center,
+.tab-select:not(:checked) + div,
+iframe[src='about:blank'],
+#absbot,
+#styleSelector,
+:root.show-ads.hide-top .topad.center,
+:root.show-ads.hide-middle .middlead.center,
+:root.show-ads.hide-bottom .bottomad.center,
+#delPassword,
+:root.show-file-info .file-info,
+:root.hide-prevnext .prev,
+:root.hide-prevnext .next,
+:root.hide-blotter #blotter,
+:root.hide-checkboxes #delform .post input[type=checkbox],
+:root.hide-checkboxes #delform .post .riceCheck,
+:root.hide-checkboxes #qp .post input[type=checkbox],
+:root.hide-checkboxes #qp .riceCheck,
+:root.hide-checkboxes .deleteform,
+:root.hide-board-name .boardTitle,
+:root.hide-board-name .boardSubtitle,
+:root.hide-banner #bannerCnt,
+:root.hide-button .qr-link-container,
+:root.reply-fit-width .sideArrows,
+:root.qr-controls #qr .close,
+:root.qr-controls #qr select[data-name="thread"],
+:root.qr-controls.fade-qr #qr .move label,
+:root.qr-controls.vertical-qr #qr .move label input,
+#postForm,
+:root.hide-button #togglePostFormLink,
+.forwarded,
+hr:not(#unread-line),
+:root.hide-navlinkbot .navLinks.navLinksBot.desktop,
+:root.hide-navlinkbot .navLinks.navLinksBottom.mobilebtn,
+:root.hide-navlinktop #info,
+:root.hide-navlinktop .navLinks:not(.navLinksBottom):not(.navLinksBot),
+:root.hide-navlinks body > .desktop:not(.pagelist):not(.navLinksBottom),
+:root.hide-navlinks .navLinks.navLinksBot.desktop,
+:root.hide-navlinks .navLinks,
+.ad-plea,
+#mascot img[src=''],
+.exif:not([style]),
+[hidden] {
+  display: none;
+}
+:root.hide-board-banners .center {
+  display: none !important;
+}
+/* 4chan Pass */
+.stylechanger {
+    visibility: hidden;
+}
+.brackets-wrap.pass-link-container {
+    visibility: visible;
+}
+/* Get rid of Chrome input outlines, and link outlines */
+input:focus,
+textarea:focus,
+select,
+a {
+  outline:none!important;
+}

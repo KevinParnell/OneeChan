@@ -1,0 +1,455 @@
+/* Side Margins */
+body {
+  margin-left: " + $SS.conf["Margin Left"] + "px;
+  margin-right: " + $SS.conf["Margin Right"] + "px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* Fix margin top when fixed top header */
+:root.show-ads .ad-cnt {
+  margin-top: auto !important;
+}
+/* Replies */
+.postInfo {
+  padding: 5px 13px;
+  display: block !important;
+}
+.summary {
+  margin-left: 2px;
+}
+.expanded-image {
+  position: relative;
+}
+div.post {
+  margin: 4px 0;
+}
+:root.force-indent .op {
+  margin-left: -12px;
+}
+:root.force-wrapping .op::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+:root.op-background .postContainer.opContainer {
+  margin-top: 2px;
+}
+.thread>.replyContainer,
+.threadContainer>.replyContainer {
+  margin-bottom:" + $SS.conf["Margin Between Replies"] + "px !important;
+}
+.inline {
+  margin-left: 13px !important;
+}
+.postMessage > .inline {
+  margin-left: 0px !important;
+}
+.inline .op>.postInfo,
+#qp .op>.postInfo {
+  min-width: 600px;
+}
+.postMessage {
+  margin: " + $SS.conf["Margin Post Message"] + " !important;
+}
+/* Fit Width option */
+:root.reply-fit-width .reply.post {
+  display: block !important;
+}
+:root.reply-fit-width .stub ~ .reply.post {
+  display: none !important;
+}
+.hasInline .inline>.replyContainer:not(.expanded-image):not(.hasInline) .reply.post,
+:root.reply-fit-width .post.reply {
+  overflow: hidden !important;
+}
+:root.reply-fit-width .expanded-image>.post::after,
+:root.reply-fit-width .hasInline>.reply.post::after {
+  clear: both !important;
+  content: '' !important;
+  display: block !important;
+}
+.threadContainer .hide-reply-button {
+  margin-left: -12px !important;
+}
+.stub {
+  padding: 2px;
+}
+.stub > a.show-thread-button {
+  margin-right: 4px;
+}
+:root.reply-hide .thread>.expanded-image>.reply,
+:root.reply-hide .thread>.hasInline>.reply {
+   margin-left: 12px !important;
+}
+/* Quote Threading */
+.threadContainer {
+  margin-left: 0 !important;
+  padding-left: 20px!important;
+}
+:root.reply-hide .thread>.threadContainer {
+   margin-left: 13px !important;
+}
+/* Style Post Info option */
+:root.post-info .reply>.postInfo {
+  box-shadow: inset rgba(0,0,0,.05) 0 -1px 2px;
+  padding-top: 2px !important;
+}
+/* Backlinks */
+:root.backlink-bottom .post {
+  position: relative;
+  padding-bottom: 2px;
+}
+:root.backlink-bottom .container {
+  position:absolute;
+  bottom:2px;
+  right:6px;
+}
+/* Menu button */
+.reply .menu-button i {
+  position: relative;
+  bottom: 1px;
+}
+:root.reply-fit-width .reply .container {
+  padding-right: 5px;
+}
+.menu-button + .container:not(:empty) {
+  margin-left: 4px !important;
+}
+:root:not(.catalog-mode).reply-fit-width .post .menu-button {
+  float: right;
+  margin-left: 0;
+  position: relative;
+  left: 5px;
+}
+:root.reply-fit-width .post .menu-button {
+  opacity: 0;
+}
+:root.reply-fit-width .post:not(:hover) .menu-button {
+  transition: opacity .3s ease-out 0s !important;
+}
+:root.reply-fit-width .post:hover .menu-button {
+  opacity: 1;
+  transition: opacity .3s ease-in .1s !important;
+}
+/* Code Tags */
+.prettyprint {
+  padding: 5px !important;
+  display: inline-block;
+  max-height: 400px;
+  overflow-x: auto;
+  max-width: 100%;
+  vertical-align:middle;
+}
+/* Checkboxes */
+input[type=checkbox],
+input[type=button],
+input[type=submit],
+.riceCheck {
+  cursor: pointer;
+}
+input[type=checkbox],
+.riceCheck {
+  display: inline-block;
+  height: 10px !important;
+  position: relative;
+  width: 10px !important;
+  border-radius: 2px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 1px;
+}
+input[type=checkbox] {
+  display: none !important;
+}
+.riceCheck {
+  margin: 0 2px -1px 0;
+}
+input[type=checkbox]:checked::before,
+input[type=checkbox]:checked+.riceCheck::before {
+  content: '';
+  display: block;
+  height: 8px;
+  margin: 1px;
+  width: 8px;
+}
+input[type=checkbox]:checked::before,
+input[type=checkbox]:checked+.riceCheck::before {
+  background: " + $SS.theme.checkMark.get() + " !important;
+}
+/* Header */
+#header-bar {
+  padding: 4px 4px 5px !important;
+}
+/* Reposition things based on Header position */
+:root:not(.fixed) #header-bar {
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid;
+}
+:root.autohide body {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+:root:not(.fixed).right-sidebar #header-bar {
+  right: 300px;
+}
+:root:not(.fixed).left-sidebar #header-bar {
+  left: 300px;
+}
+:root:not(.fixed) .boardBanner {
+  top: 0;
+}
+.center {
+  margin: 5px !important;
+}
+#full-board-list>a,
+.navSmall>a {
+  margin-left: 2px;
+}
+:root.fixed:not(.autohide):not(.bottom) #globalMessage {
+  margin-bottom: 20px !important;
+}
+.globalMessage, h2, h3 {
+  margin: auto;
+}#custom-board-list,
+#full-board-list,
+.shortcut {
+  vertical-align: baseline !important;
+}
+/* QR link */
+.qr-link {
+  border-radius: 3px;
+  vertical-align: middle;
+  padding: 7px 12px 6px;
+}
+/* HRs */
+hr {
+  height: 2px;
+  width: 600px;
+  border: none !important;
+}
+:root.reply-fit-width #unread-line {
+  margin: auto;
+  width: 100%;
+}
+#unread-line {
+  margin-top: -3px !important;
+  margin-bottom: -3px !important;
+}
+/* Scroll Marker */
+:root:not(.autohide) #scroll-marker {
+ pointer-events: none !important;
+}
+/* Board Title */
+.boardTitle {
+  cursor:default;
+  letter-spacing:-2px;
+}
+/* Banner */
+#bannerCnt {
+  border: 0 !important;
+  margin: 0 auto;
+  width: 300px;
+  max-height: 100px !important;
+  max-width: 100%;
+}
+.boardBanner {
+  width: 300px;
+  margin: auto;
+}
+.boardBanner>img {
+  border: none !important;
+}
+:root.banner-opacity #bannerCnt {
+  opacity: 0.5;
+  transition: opacity .3s ease-out 0s;
+}
+:root.banner-opacity #bannerCnt:hover {
+  opacity: 1.0 !important;
+  transition: opacity .3s ease-in 0s;
+}
+/* Pages */
+.pages strong>a {
+  border-radius: 3px;
+}
+.pages strong>a:hover {
+  opacity: 0.7 !important;
+  transition: opacity .3s ease-in 0s;
+}
+.pagelist {
+  margin-left: 18px;
+  margin-bottom: 15px;
+}
+:root.reply-fit-width .pagelist {
+  margin-left: 0;
+}
+.pages a {
+  padding: 5px 10px;
+  margin-left: -1px;
+}
+.next,
+.prev {
+  border: none !important;
+  position: relative;
+}
+.next a,
+.prev a {
+  position: relative;
+  right: 5px;
+}
+.prev a::after {
+  content: '<';
+  position: inherit;
+  top: 4px;
+  left: 1px;
+}
+.next a::after {
+  content: '>';
+  position: inherit;
+  top: 4px;
+  right: 2px;
+}
+.pagelist button,
+.pagelist button:hover {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 20px;
+  width: 20px;
+}
+.pagelist span {
+  opacity: 0.2;
+}
+/* /f/ */
+table.flashListing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+table.flashListing .highlightPost {
+  background: rgb\(" + $SS.theme.mainColor.shiftRGB(-25) + ") !important;
+}
+.flashListing td {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+  text-align: center !important;
+}
+#delform[action='https://sys.4chan.org/f/up.php'],
+#delform[action='https://sys.4chan.org/f/up.php'] .postblock {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+/* Mascot */
+#mascot img,
+#mascotprev img {
+  position:fixed;
+  right: 0;
+  bottom: 0;
+}
+#mascot img {
+  margin-bottom:" + $SS.mascot.offset + "px;
+  margin-right:" + $SS.mascot.hoffset + "px;
+  height:" + $SS.mascot.height + ";
+  width:" + $SS.mascot.width + ";
+  max-width:" + $SS.mascot.maxwidth + ";
+  transform: " + $SS.mascot.flip + ";
+  pointer-events: none;
+}
+:root.left-sidebar #mascot img,
+:root.left-sidebar #mascotprev img {
+  margin-left: " + $SS.mascot.hoffset + "px;
+  margin-right: 0 !important;
+}
+#mascotprev img {
+  z-index: 90 !important;
+}
+#mascot.previewing img {
+  display: none;
+}
+:root.fixed.bottom-header:not(.autohide) #mascot img,
+:root.fixed.bottom-header:not(.autohide) #mascotprev img {
+  padding-bottom: 26px;
+}
+:root.left-sidebar #mascot img,
+:root.left-sidebar #mascotprev img {
+  left: 0;
+  right: auto !important;
+}
+:root.mascot-opacity #mascot img,
+:root.mascot-opacity #mascotprev img {
+  opacity: 0.5;
+  transition: opacity .3s ease-out 0s;
+  pointer-events: auto !important;
+}
+:root.mascot-opacity #mascot img:hover,
+:root.mascot-opacity #mascotprev img:hover {
+  opacity: 1.0 !important;
+  transition: opacity .3s ease-in 0s;
+}
+:root.mascot-overlap #mascot img {
+  z-index: -1;
+}
+/* Ads */
+:root.ad-opacity .center img {
+  opacity: 0.5;
+  transition: opacity .3s ease-out 0s;
+}
+:root.ad-opacity .center img:hover {
+  opacity: 1.0 !important;
+  transition: opacity .3s ease-in 0s;
+}
+/* Navlinks */
+body.is_index div.navLinks {
+  padding: 5px 0;
+}
+.navLinks.navLinksBot.desktop {
+  margin-bottom: 5px;
+}
+#hoverUI {
+  z-index: 12 !important;
+}
+#search-box,
+#index-search {
+  width: 9%;
+  transition: color .25s, border-color .25s, width .25s;
+}
+#search-box:focus,
+#index-search:focus {
+  width: 12%;
+  transition: color .25s, border-color .25s, width .25s;
+}
+/* Thumb Opacity */
+:root.thumb-opacity .fileThumb {
+  opacity: 0.5;
+  transition: opacity .3s ease-out 0s;
+}
+:root.thumb-opacity .fileThumb:hover {
+  opacity: 1.0;
+  transition: opacity .3s ease-in 0s;
+}
+/* Post Info on Hover */
+:root.info-on-hover .postContainer .fileText {
+  opacity: 0;
+  height: 0;
+  transition: opacity .3s ease-out 0s;
+  pointer-events: none;
+}
+:root.info-on-hover .postContainer:hover .fileText {
+  opacity: 1;
+  height: auto;
+  transition: opacity .3s ease-in 0s;
+  pointer-events: auto;
+}
+/* Selection Lists */
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+/* See issue #90 */
+#delform {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin-bottom: 15px; /* unrelated to issue #90 */
+}

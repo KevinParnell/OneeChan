@@ -1,0 +1,83 @@
+/* Highlight all posts */
+:root.hl-border .post.reply,
+:root.op-background.hl-border .postContainer.opContainer {
+  border-left: " + $SS.conf["Width Decoration"] + "px " + $SS.conf["Post Highlight Style"] + " rgba(" + $SS.theme.postHLColor.rgb + ",1.0) !important;
+}
+:root.hl-border-down .post.reply,
+:root.op-background.hl-border-down .postContainer.opContainer {
+  border-bottom: " + $SS.conf["Width Decoration"] + "px " + $SS.conf["Post Highlight Style"] + " rgba(" + $SS.theme.postHLColor.rgb + ",1.0) !important;
+}
+:root.hl-outline .post.reply,
+:root.op-background.hl-outline .postContainer.opContainer {
+  outline: " + $SS.conf["Width Decoration"] + "px " + $SS.conf["Post Highlight Style"] + " rgba(" + $SS.theme.postHLColor.rgb + ",1.0);
+}
+/* Filter Highlighting */
+.filter-highlight .catalog-thumb {
+  box-shadow: 0px 0px 3px 3px rgba(" + $SS.theme.postHLColor.rgb + ",0.5) !important;
+}
+.filter-highlight.opContainer,
+.filter-highlight > .reply {
+  box-shadow: 5px 0px rgba(" + $SS.theme.postHLColor.rgb + ",0.5) inset !important;
+}
+.filter-highlight > div.sideArrows {
+  color: rgba(" + $SS.theme.postHLColor.rgb + ",0.5) !important;
+}
+/* Outlines */
+.qphl {
+  outline: 2px solid rgba(" + $SS.theme.linkColor.rgb + ",0.5) !important;
+}
+/* Posts Quoting You */
+:root.highlight-you .quotesYou.opContainer,
+:root.highlight-you .quotesYou > .reply {
+  border-left: " + $SS.conf["Width Decoration"] + "px solid rgba(" + $SS.theme.quotesYouHLColor.rgb + ",1.0) !important;
+}
+:root.highlight-you .quotesYou > .sideArrows {
+  color: rgba(" + $SS.theme.quotesYouHLColor.rgb + ",1.0) !important;
+}
+/* Your Posts */
+:root.highlight-own .yourPost.opContainer,
+:root.highlight-own .yourPost > .reply {
+  border-left: " + $SS.conf["Width Decoration"] + "px dashed rgba(" + $SS.theme.ownPostHLColor.rgb + ",1.0) !important;
+}
+:root.highlight-own .yourPost > .sideArrows {
+  color: rgba(" + $SS.theme.ownPostHLColor.rgb + ",1.0) !important;
+}
+/* Highlighted Reply BG */
+.reply:target {
+  background: rgba(" + $SS.theme.replybgHLColor.rgb + ",0.8) !important;
+}
+/* Reply Selection (default keybind J/K) */
+.highlight {
+  outline: 2px solid rgba(" + $SS.theme.replyslctColor.rgb + ",1.0) !important;
+}
+/* Highlighted Threads */
+.catalog-thread.watched .catalog-thumb,
+.catalog-thread.watched .werkTyme-filename {
+  border: 2px solid rgba(" + $SS.theme.postHLColor.rgb + ",1.0) !important;
+}
+/* Thread Watcher */
+.replies-quoting-you > .watcher-link {
+  color: rgba(" + $SS.theme.quotesYouHLColor.rgb + ",1.0) !important;
+}
+.replies-quoting-you > .watcher-link:hover {
+  color: " + $SS.theme.linkHColor.hex + " !important;
+}
+#watched-threads > .replies-quoting-you > a {
+  color: rgba(" + $SS.theme.quotesYouHLColor.rgb + ",1.0) !important;
+}
+#shortcuts > .shortcut > #watcher-link.disabled.replies-quoting-you {
+  color: rgba(" + $SS.theme.quotesYouHLColor.rgb + ",.45) !important;
+}
+#watched-threads > .replies-quoting-you > a:hover,
+#shortcuts > .shortcut > #watcher-link.disabled.replies-quoting-you:hover {
+  color: " + $SS.theme.linkHColor.hex + " !important;
+}
+/* Highlight (OP) and (You) */
+:root.highlight-opQuotes .qmark-op {
+  color: rgba(" + $SS.theme.postHLColor.rgb + ",1.0);
+  font-weight: bold;
+}
+:root.highlight-youQuotes .qmark-you {
+  color: rgba(" + $SS.theme.quotesYouHLColor.rgb + ",1.0);
+  font-weight: bold;
+}

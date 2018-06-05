@@ -1,0 +1,98 @@
+/* Sidebar */
+/* CSS here is only added if Sidebar Position is not 3 (Disabled) */
+:root:not(.fixed) #header-bar {
+  z-index: 10;
+}
+:root.left-sidebar body {
+  padding-left: 303px;
+}
+:root.right-sidebar body {
+  padding-right: 303px;
+}
+:root.left-sidebar:not(.mini-sidebar) .boardBanner,
+:root.right-sidebar:not(.mini-sidebar) .boardBanner {
+  position: fixed;
+}
+:root.left-sidebar:not(.mini-sidebar) .boardBanner {
+  left: 1px;
+}
+:root.right-sidebar:not(.mini-sidebar) .boardBanner {
+  right: 1px;
+}
+:root.fixed:not(.autohide):not(.bottom) .boardBanner {
+  margin-top: -6px;
+}
+:root.left-sidebar #qr {
+  left: 0 !important;
+  right: auto !important;
+}
+:root.right-sidebar #qr {
+  right: 0 !important;
+  left: auto !important;
+}
+.captcha-img,
+.captcha-img img {
+  min-width: 100% !important;
+  height: 56px !important;
+}
+/* Vertical QR */
+:root.vertical-qr:root.left-sidebar #qr {
+  transform: translateX(-100%);
+}
+:root.vertical-qr:root.left-sidebar #qr .move {
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+  left: 63.5%;
+  bottom: 46px;
+}
+/* SS-like Sidebar */
+:root.ss-sidebar body::before {
+  background:rgba\(" + $SS.theme.mainColor.shiftRGB(-18) + ",." + ($SS.theme.mainColor.isDark ? 9 : 2) + ");
+  border-left:2px solid rgba(" + $SS.theme.mainColor.rgb + ",.9);
+  box-shadow:inset " + $SS.theme.brderColor.hex + " 1px 0 0,inset " + $SS.theme.brderColor.hex + " -1px 0 0;
+  content:'';
+  height:100%;
+  width:302px;
+  position:fixed;
+  top:0;
+  right: 0;
+}
+:root.ss-sidebar.left-sidebar body::before {
+  border-right:2px solid rgba(" + $SS.theme.mainColor.rgb + ",.9);
+  border-left: none !important;
+  left: 0;
+  right: auto !important;
+}
+/* Minimal Sidebar */
+:root.mini-sidebar:root.left-sidebar body {
+  padding-left: 32px !important;
+}
+:root.mini-sidebar:root.right-sidebar body {
+  padding-right: 32px !important;
+}
+:root.mini-sidebar .boardSubtitle {
+  display: none;
+}
+:root.mini-sidebar:root.ss-sidebar body::before {
+  width: 31px !important;
+}
+:root.mini-sidebar .boardTitle {
+  top: 72px !important;
+  width: inherit !important;
+  letter-spacing: -1px;
+  position: fixed;
+}
+:root.mini-sidebar:root.right-sidebar .boardTitle {
+  right: 32px;
+  -webkit-transform-origin: top right;
+  transform-origin: top right;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+}
+:root.mini-sidebar:root.left-sidebar .boardTitle {
+  left: 32px;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+}

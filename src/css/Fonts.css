@@ -1,0 +1,156 @@
+/* Font Size/Family */
+
+/* Anything we need 0px */
+.deleteform,
+.pages,
+.pagelist button,
+#full-board-list {
+  font-size: 0 !important;
+}
+/* Anything we need small */
+.fileText,
+.summary {
+  font-size: " + (($SS.conf["Font Size"] < 13) ? 10 : ($SS.conf["Font Size"] - 2)) + "px !important;
+}
+/* Anything we need !important */
+.qr-link {
+  font-size: 14px !important;
+}
+/* Options */
+.tab-label,
+.options-button,
+.theme-preview,
+#oneechan-options input,
+#oneechan-options textarea,
+.hide-reply-button,
+.hide-thread-button {
+  font-family:sans-serif !important;
+  font-size:12px !important;
+}
+/* Board Title */
+.boardBanner .boardTitle {
+  font-weight: 400 !important;
+  font-size: " + (($SS.conf["Font Size"] < 13) ? 22 : 26) + "px !important;
+}
+/* Code Tags */
+.prettyprint span {
+  font-family:monospace!important;
+  font-size:medium!important;
+}
+/* Full board list */
+#full-board-list,
+body>#header-bar,
+#full-board-list .fourchanx-link {
+  font-size: " + (($SS.conf["Font Size"] < 1) ? 12 : ($SS.conf["Font Size"] - 1)) + "px !important;
+}
+@media (min-width: 1280px) and (max-width: 1920px) {
+  #board-list  {
+    word-spacing: " + (($SS.conf["Font Size"] < 14) ? -1 : -2) + "px;
+  }
+}
+/* Everything else */
+body,
+.prev span::after,
+.prev form::after,
+.next span::after,
+.next form::after,
+.pages a,
+#qr input.field,
+#qr:not(.sjis-preview) textarea.field,
+#qr span.field,
+#qr-file-button,
+#qr input[type=submit],
+#qr select[data-name="thread"],
+#menu .entry,
+#boardList,
+#shortcuts,
+#index-search,
+#tegaki,
+select,
+input,
+div.next,
+form.pageSwitcherForm > input[type="submit"] {
+  font-family:" + $SS.formatFont($SS.conf["Font Family"]) + ";
+  font-size:" + $SS.conf["Font Size"] + "px !important;
+}
+#full-board-list a,
+#custom-board-list,
+a.qr-link {
+  font-family:" + $SS.formatFont($SS.conf["Font Family"]) + " !important;
+  font-size:" + $SS.conf["Font Size"] + "px !important;
+}
+#qr .field::-moz-placeholder,
+::-moz-placeholder {
+  font-family:" + $SS.formatFont($SS.conf["Font Family"]) + " !important;
+  font-size:" + $SS.conf["Font Size"] + "px !important;
+}
+#qr .field::webkit-input-placeholder,
+::webkit-input-placeholder {
+  font-family:" + $SS.formatFont($SS.conf["Font Family"]) + " !important;
+  font-size:" + $SS.conf["Font Size"] + "px !important;
+}
+.backlink {
+  font-size: " + $SS.conf["Backlink Font Size"] + "px !important;
+}
+:root.info-on-hover .postNum {
+  font-size: 0 !important;
+}
+:root.info-on-hover .postContainer:hover .postNum {
+  font-size:" + $SS.conf["Font Size"] + "px !important;
+}
+#qr-file-button,
+#qr input[type=submit],
+#qr label,
+.captcha-counter {
+  font-size: " + (($SS.conf["Font Size"] < 11) ? 8 : 10) + "px !important;
+}
+#qr-file-button,
+#qr input[type="submit"],
+#qr label,
+.captcha-counter {
+  text-transform: uppercase;
+}
+#qr label:not(.riceCheck) {
+  overflow: hidden;
+  padding-bottom: 2px;
+}
+/* Text decoration */
+:root.underline-disabled a {
+  text-decoration: none !important;
+}
+.navLinks.navLinksBot.desktop a {
+  text-decoration: underline;
+}
+:root.underline-disabled .filtered {
+  text-decoration: line-through !important;
+}
+.deadlink.quotelink {
+  text-decoration: none !important;
+}
+:root.underline-quotes .deadlink.quotelink,
+:root.underline-quotes .quotelink,
+:root.underline-quotes .deadlink.backlink,
+:root.underline-quotes .backlink {
+  text-decoration: underline !important;
+}
+a.options-button,
+#oneechan-version a {
+  text-decoration: none !important;
+}
+.closed {
+  text-align: center;
+}
+/* Font weight */
+.name,
+.subject,
+.option.header .option-title,
+a.current {
+  font-weight: " + ($SS.conf["Bitmap Font"] ? 4 : 7) + "00 !important;
+}
+.qr-link {
+  font-weight: normal;
+}
+/* Font Style */
+.summary {
+  font-style:" + ($SS.conf["Bitmap Font"] ? 'none' : 'italic') + ";
+}

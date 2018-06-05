@@ -1,0 +1,81 @@
+.closeIcon {
+  background-image: none !important;
+}
+.closeIcon::after {
+  content: 'x';
+}
+/* Thread watcher favicon */
+.watch-thread-link {
+  margin-bottom: -7px;
+  margin-right: 2px;
+  top: auto !important;
+  bottom: 4px !important;
+  background-image: url(\"data:image/svg+xml," + $SS.theme.icons.star + "\") !important;
+}
+/* Backlinks */
+:root.backlink-icon .backlink {
+  background-image: url(\"data:image/svg+xml," + $SS.theme.icons.backlink + "\") !important;
+  font-size: 0 !important;
+  padding: " + (($SS.conf["Font Size"] < 12) ? 5 : 6) + "px !important;
+  margin-right: 0 !important;
+  opacity: 0.6 !important;
+  position: relative;
+  bottom: 5px;
+  left: 2px;
+}
+:root.backlink-icon .backlink.inlined {
+  background-image: url(\"data:image/svg+xml," + $SS.theme.icons.downArrow + "\") !important;
+  font-size: 0 !important;
+  padding: 6px !important;
+  margin-right: 0 !important;
+  opacity: 0.6 !important;
+  position: relative;
+  bottom: 5px;
+  left: 3px;
+}
+:root.backlink-icon .reply .backlink {
+  bottom: " + (($SS.conf["Font Size"] < 12) ? 4 : 6) + "px !important;
+}
+:root.backlink-icon .backlink:hover,
+:root.backlink-icon .backlink.inlined:hover {
+  opacity: 1 !important;
+}
+/* From 4chanSS */
+img[title=Closed],
+img[title=Sticky],
+img[title=Archived] {
+  color: transparent !important;
+  font-size: 0 !important;
+  background-color: transparent !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 0 !important;
+  padding-top: 16px !important;
+  text-indent: -9999px !important;
+  vertical-align: bottom;
+  width: 16px !important;
+}
+/* Thread Closed */
+.closedIcon {
+  background-image:url(\"data:image/svg+xml," + $SS.theme.icons.threadClosed + "\")!important;
+}
+/* Thread Pinned */
+.stickyIcon {
+  background-image:url(\"data:image/svg+xml," + $SS.theme.icons.threadPinned + "\")!important;
+}
+/* Thread Archived */
+.archivedIcon {
+  background-image:url(\"data:image/svg+xml," + $SS.theme.icons.threadArchived + "\")!important;
+}
+/* ExLinks Icon */
+.exlinksOptionsLink.entry {
+  padding: 0 !important;
+  min-width: 0 !important;
+}
+:root.left-sidebar .exlinksOptionsLink.entry {
+  left: 2px !important;
+}
+:root.right-sidebar .exlinksOptionsLink.entry {
+  right: 2px !important;
+}

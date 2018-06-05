@@ -1,0 +1,50 @@
+{
+  "name": "OneeChan",
+  "version": "5.6.2",
+  "description": "Customizable rice and themes for 4chan X.",
+  "meta": {
+    "name": "OneeChan",
+    "repo": "https://github.com/nebukazar/OneeChan/",
+    "page": "https://github.com/nebukazar/OneeChan/",
+    "downloads": "https://nebukazar.github.io/OneeChan/builds/",
+    "appid": "cnbankbnhjiakpmcjbecinckfbceeacf",
+    "buildsPath": "builds/",
+    "mainBranch": "master",
+    "matches": [
+      "*://boards.4chan.org/*"
+    ],
+    "files": {
+      "metajs": "OneeChan.meta.js",
+      "userjs": "OneeChan.user.js"
+    },
+    "min": {
+      "chrome": "32",
+      "firefox": "26",
+      "greasemonkey": "1.15"
+    }
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-bump": "~0.0.16",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-compress": "~0.12.0",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-shell": "~1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nebukazar/OneeChan.git"
+  },
+  "author": "seaweedchan",
+  "contributors": [
+    "Nebukazar<nebukazar.github.com>"
+  ],
+  "namespace": "seaweedchan.github.com",
+  "license": "GPL-3.0",
+  "readmeFilename": "README.md",
+  "engines": {
+    "node": ">=0.10"
+  }
+}

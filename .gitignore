@@ -1,0 +1,9 @@
+node_modules/
+*~
+*.db
+tmp/
+builds/OneeChan-Chrome.zip
+TODO.md
+*.pem
+Gruntfile.js
+.directory

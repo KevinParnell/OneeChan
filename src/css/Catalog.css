@@ -1,0 +1,58 @@
+/* Catalog */
+.extended-small .teaser, .extended-large .teaser {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+div.thread {
+  margin: 2px 1px 0 0;
+  clear: both;
+  padding-bottom: 10px;
+}
+/* Catalog Link */
+.pages.cataloglink {
+  margin-left: 12px;
+  border-radius: 3px;
+}
+.pages.cataloglink a {
+  color: " + $SS.theme.textColor.hex + " !important;
+  font-weight: bold;
+}
+.pages.cataloglink a:hover {
+  color: " + $SS.theme.textColor.hex + " !important;
+  opacity: 0.7 !important;
+  transition: opacity .3s ease-in 0s;
+}
+/* Catalog Fonts */
+:root.catalog-justify .teaser,
+:root.catalog-justify .catalog-thread > .comment {
+  text-align: justify !important;
+}
+/* Background */
+:root.catalog-background #threads div.thread,
+:root.catalog-background .catalog-thread {
+  background: rgba(" + $SS.theme.mainColor.rgb + "," + $SS.theme.replyOp + ") !important;
+}
+:root.rounded-corners.catalog-background #threads div.thread,
+:root.rounded-corners.catalog-background .catalog-thread {
+  border-radius: 3px !important;
+}
+:root.catalog-background .teaser,
+:root.catalog-background .catalog-thread > .comment {
+  margin: 0 5px 5px 5px;
+}
+:root.catalog-background .thumb,
+:root.catalog-background img.catalog-thumb  {
+  margin-top: 8px;
+}
+:root.catalog-background .extended-large .thread {
+    min-height: 410px;
+}
+:root.catalog-background .extended-small .thread {
+    min-height: 320px;
+}
+/* Thumbnails */
+:root.catalog-thumbsize .thumb,
+:root.catalog-thumbsize img.catalog-thumb  {
+  width: 150px !important;
+  height: 150px !important;
+}

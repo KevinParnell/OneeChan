@@ -1,0 +1,165 @@
+/* Quick Reply */
+#qr {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  min-width: 297px !important;
+  box-shadow: none !important;
+}
+#qr .close {
+  padding: 2px 3px 2px 4px !important;
+}
+#qr .riceCheck,
+#qr input[type=checkbox] {
+  margin: 0px 4px 1px!important;
+  vertical-align: baseline;
+  position: relative;
+  top: 3px;
+}
+#qr-filename-container .riceCheck,
+#qr-filename-container input[type=checkbox] {
+  margin: 0px 0px 1px!important;
+}
+#qr-file-button,
+#qr input[type='submit'] {
+  height: 25px !important;
+  margin: 0 !important;
+}
+#qr-file-button,
+#qr-filename-container {
+  margin-right: 1px !important;
+}
+#qr-spoiler-label + input[type='submit'] {
+  /* ccd0 prior to v1.10.3 */
+  margin-top: 1px !important;
+}
+#qr > form > select {
+  margin: 1px 0px !important;
+}
+#qr select[data-name="thread"] {
+  margin: 1px 0 1px 0;
+  max-width: 133px;
+  min-width: 80px;
+}
+#qr > form > div.persona > input:nth-child(4),
+#qr > form > div.persona > input:nth-child(5),
+#qr > form > div.persona > input:nth-child(6) {
+  margin-left: 1px;
+}
+:root.expand-inputs .persona {
+  display: flex;
+}
+:root.expand-inputs .persona .field {
+  flex: 1;
+  width: 0;
+}
+:root.expand-inputs .persona .field:hover,
+:root.expand-inputs .persona .field:focus {
+  flex: 3;
+}
+#qr:not(.has-captcha) textarea {
+  min-height: 190px !important;
+}
+:root.ua-webkit #qr:not(.has-captcha) textarea {
+  min-height: 185px !important;
+}
+:root.ua-webkit #qr.has-captcha textarea.field {
+  height: 8.6em;
+  min-height: 0.6em !important;
+}
+:root.qr-background #qr {
+  background: transparent !important;
+  border: none;
+}
+:root.qr-opacity #qr {
+  opacity: 0.9;
+}
+.textarea {
+  margin-top: 1px;
+  -webkit-margin-after: 1px;
+}
+:root.ua-gecko .textarea {
+  margin-bottom: 1px;
+}
+.captcha-img {
+  min-height: 58px !important;
+  margin-bottom: 1px;
+}
+:root.force-qr #qr {
+  max-width: 297px;
+}
+/* Vertical QR */
+:root.vertical-qr #qr > div > label > div {
+  display: none;
+}
+:root.vertical-qr #qr textarea {
+  resize: vertical !important;
+}
+:root.vertical-qr #qr {
+  min-width: 297px !important;
+  top: auto !important;
+  position: fixed;
+  right: 0 !important;
+  left: auto !important;
+}
+:root.vertical-qr #qr .move {
+  position: absolute;
+  width: 105px;
+  cursor: default;
+  padding: 2px 0 2px 2px;
+  text-align: center;
+  bottom: 88px;
+}
+:root.vertical-qr #qr:hover .move {
+  transition: opacity .42s linear;
+}
+:root.vertical-qr #qr:hover .move, 
+:root.vertical-qr #qr.focus .move {
+  opacity: 0 !important;
+}
+:root.vertical-qr.bottom-header #qr {
+  bottom: 28px !important;
+}
+:root.vertical-qr.top-header #qr {
+  bottom: 0 !important;
+}
+:root.vertical-qr .captcha-img, 
+:root.vertical-qr .captcha-img img {
+  max-width: 247px;
+}
+:root.vertical-qr #qr form {
+  display: block !important;
+}
+:root.vertical-qr #qr .move #autohide,
+:root.vertical-qr #qr > div > select {
+  display: none;
+}
+:root.vertical-qr #qr:hover,
+:root.vertical-qr #qr.focus {
+  transform: translateX(0%) !important;
+}
+:root.vertical-qr #qr {
+  transform: translateX(100%);
+  transition: transform .3s ease-in-out .1s;
+}
+:root.vertical-qr #qr .move {
+  transform: rotate(-90deg);
+  right: 86%;
+}
+/* Fade QR */
+:root.fade-qr #qr form {
+  display: block !important;
+}
+:root.fade-qr #qr.autohide:not(.focus):not(:hover) {
+  opacity: 0.2 !important;
+  transition: opacity .2s ease-in-out 1s;
+}
+/* Oekaki */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}

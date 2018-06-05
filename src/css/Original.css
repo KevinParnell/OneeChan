@@ -1,0 +1,225 @@
+/* Some original Yotsuba CSS */
+#logo {
+  background: url(https://i.imgur.com/DG9V9sI.png) !important;
+}
+.party-hat {
+  left: 0;
+  margin-top: -80px;
+  position: absolute;
+  pointer-events: none;
+}
+/* 4chan Pass Signature */
+.pu-img {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 3px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('//s.4cdn.org/image/minileaf.gif');
+}
+.pu-lbl {
+    color: " + $SS.theme.titleColor.hex + " !important;
+    font-weight: bold;
+    font-size: 12px;
+}
+.n-pu {
+    vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: -2px;
+    background: url('//s.4cdn.org/image/minileaf.gif');
+}
+/* End */
+.sjis {
+  font-size: 16px;
+  line-height: 17px;
+  white-space: pre;
+  font-family: 'IPAMonaPGothic', 'Mona', 'MS PGothic', monospace;
+  overflow: auto;
+  display: block;
+  clear: left;
+}
+.mu-s {
+  font-weight: bold;
+}
+.mu-i {
+  font-style: italic;
+}
+.mu-r {
+  color: #c41e3a;
+}
+.mu-g {
+  color: #00a550;
+}
+.mu-b {
+  color: #1d8dc4;
+}
+div.post div.file .fileThumb {
+  float: left;
+  margin-left: 13px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+div.op.post div.file .fileThumb {
+  margin-bottom: 0;
+}
+.fileText {
+  margin-left: 13px !important;
+  margin-bottom: 2px !important;
+}
+.postContainer {
+  display: block;
+}
+/* Padding according to header position */
+.fixed.bottom-header.is_thread body {
+  padding-bottom: 0em;
+  padding-top: 0.5em;
+}
+.fixed.bottom-header.is_index body {
+  padding-bottom: 4.5em;
+  padding-top: 0.5em;
+}
+.fixed.bottom-header.is_catalog body,
+.fixed.bottom-header.catalog-mode body {
+  padding-bottom: 3em;
+  padding-top: 0.5em;
+}
+.fixed.bottom-header body {
+  padding-top: 0.5em;
+}
+:root.is_index.bottom-header:not(.autohide) body {
+  padding-bottom: 5em !important;
+}
+.fixed.top-header.is_index body {
+  padding-bottom: 2.5em;
+  padding-top: " + (($SS.conf["Font Size"] <= 11) ? 3.2 : 3) + "em !important;
+}
+.fixed.top-header.is_thread body {
+  padding-bottom: 0em;
+  padding-top: " + (($SS.conf["Font Size"] <= 11) ? 3.2 : 3) + "em !important;
+}
+.fixed.top-header.is_catalog body,
+.fixed.top-header.catalog-mode body {
+  padding-bottom: 0.5em;
+  padding-top: " + (($SS.conf["Font Size"] <= 11) ? 3.2 : 3) + "em !important;
+}
+.fixed.top-header.autohide body {
+  padding-top: 2em !important;
+}
+.fixed.top-header body {
+  padding-top: 3em !important;
+}
+div.post {
+  margin: 4px 0;
+  overflow: hidden;
+}
+:root:not(.reply-fit-width) #delform div.reply:not([hidden]) {
+  display: table !important;
+}
+:root:not(.reply-fit-width) #delform .stub ~ div.reply:not([hidden]) {
+  display: none !important;
+}
+table.flashListing {
+  border-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.pagelist div.pages {
+  padding: 4px;
+}
+div.pagelist,
+div.pagelist>div {
+  float: left;
+}
+div.pagelist>div span {
+  padding: 4px;
+  display: inline-block;
+}
+.page-num {
+  margin-right: auto !important;
+}
+s {
+  text-decoration: none !important;
+}
+span.spoiler,
+s,
+s:not(:hover) > a,
+s:not(:hover) > .linkify {
+  color: rgb(0, 0, 0) !important;
+  background: none repeat scroll 0 0 rgb(0, 0, 0) !important;
+}
+span.spoiler:hover,
+s:hover,
+span.spoiler:focus,
+s:focus {
+  color: rgb(255, 255, 255) !important;
+}
+#globalMessage,
+.boardBanner {
+  text-align: center;
+}
+div.sideArrows {
+  float: left;
+  margin-right: 2px;
+  margin-top: 0;
+  margin-left: 2px;
+  opacity: 0.3;
+}
+hr,
+#boardNavDesktopFoot {
+  clear: both;
+}
+table {
+  border-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  text-align: center !important;
+}
+.middlead,
+.topad {
+  margin-bottom: 20px !important;
+}
+#qf-box {
+    width: 120px;
+}
+span.hide-announcement {
+  margin-left: 3px;
+  vertical-align: sub;
+}
+/* Bottom Controls */
+.bottomCtrl.desktop {
+  float: right;
+}
+.fixed.bottom-header.is_index .bottomCtrl.desktop,
+.fixed.bottom-header.is_thread .bottomCtrl.desktop {
+  float: right;
+  margin-bottom: 35px;
+}
+.fixed.top-header.is_thread .bottomCtrl.desktop,
+.fixed.top-header.is_index .bottomCtrl.desktop {
+  float: right;
+  margin-bottom: 8px;
+}
+/* Other */
+#navlinks {
+  top: 135px;
+  right: 10px;
+}
+:root.isLight img[src*='//boards.4chan.org/js/jsMath/fonts/'] {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+/* Accommodate Oneechan icon in header */
+.centered-links:root #shortcuts {
+  width: 350px !important;
+}
+/* Blotter */
+#blotter {
+  margin-bottom: 10px;
+  font-size: 11px;
+  width: auto;
+}

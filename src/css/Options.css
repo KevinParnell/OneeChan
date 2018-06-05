@@ -1,0 +1,428 @@
+/* Dialogs */
+#add-theme,
+#oneechan-options {
+  border:0!important;
+  border-radius:3px!important;
+  position: fixed;
+  margin: auto;
+}
+#oneechan-options {
+  width: 690px;
+  text-align:left!important;
+  height: 532px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: rgba(0,0,0,.6) 0 0 10px !important;
+  padding: 5px;
+}
+.options-close,
+#options-container:not(.yui-skin-sam) {
+  padding: 3px;
+}
+#options-container:not(.yui-skin-sam) {
+  box-shadow: inset rgba(0,0,0,.3) 0 0 5px;
+}
+.options-close {
+  text-align: right !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+#add-mascot {
+  height: 225px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  margin: auto;
+  border: 0 !important;
+  border-radius: 3px !important;
+  right: 0;
+  z-index: 999 !important;
+  width: 500px;
+  text-align:right!important;
+  padding: 5px !important;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.3) !important;
+}
+#add-theme {
+  padding: 20px 20px 20px 20px !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 445px;
+}
+:root.ua-webkit #add-theme {
+  height: 403px !important;
+}
+#add-mascot .option-title,
+#add-theme .option-title {
+  float:left;
+  line-height:22px;
+  padding-left:5px;
+}
+#add-mascot>label,
+#add-theme>label {
+  line-height:22px;
+}
+/* Main */
+#options-container:not(.yui-skin-sam) {
+  border-radius:5px;
+}
+#options-container:not(.yui-skin-sam),
+.options-section {
+  height:500px;
+}
+.options-section {
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+#main-section .option {
+  display:block;
+  border-top:1px solid rgba(0,0,0,.1);
+  height:22px;
+  padding:0 6px;
+  vertical-align:middle;
+}
+#main-section>.option:nth-of-type(even) {
+  background: rgb\(" + $SS.theme.mainColor.shiftRGB(-5) + ") !important;
+}
+#main-section .buttons-container+.option {
+  border-top: none !important;
+}
+.option-title {
+  line-height:20px!important;
+}
+#main-section .option:first-child {
+  border-top:0!important;
+}
+#main-section .option:last-child {
+  border-bottom:0!important;
+}
+#main-section input, #main-section select {
+  float: right !important;
+}
+#main-section input[type=checkbox], 
+#main-section .riceCheck {
+  float: left !important;
+  margin-right: 5px !important;
+}
+select[name='Font Family']>option {
+  max-width:150px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.suboption::before {
+  border-bottom:1px solid rgba(0,0,0,.1);
+  border-left:1px solid rgba(0,0,0,.1);
+  content:'';
+  display:inline-block;
+  float:left;
+  margin-right:2px;
+  height:50%;
+  width:6px;
+}
+.suboption {
+  padding-left:16px !important;
+}
+.option.header {
+  cursor: auto !important;
+}
+/* Themes */
+.theme-preview {
+  cursor: default;
+}
+.theme-preview blockquote {
+  margin: 12px 40px !important;
+}
+#themes-section .reply {
+  padding: 2px!important;
+  position:relative;
+  text-align:left;
+  width:99.4%;
+  border-radius: 0 !important;
+}
+.theme-buttons-container {
+  bottom:4px;
+  right:2px;
+  margin:0;
+  opacity:0;
+  position:absolute;
+  z-index:3;
+}
+.theme-preview:hover .theme-buttons-container {
+  opacity:1;
+}
+.theme-buttons-container>a {
+  display:inline-block;
+  margin:0 2px;
+  padding:2px 5px;
+  text-align:center;
+  width:50px;
+  border-radius:3px;
+}
+/* SFW & NSFW Labels */
+.theme-preview .sfw-label {
+  bottom:-5px;
+  font-size:32px!important;
+  margin:0!important;
+  opacity:0;
+  position:absolute;
+  right:300px;
+  
+}
+.theme-preview.selected:not(.nsfw) .sfw-label, 
+.theme-preview.nsfw:not(.selected) .sfw-label, 
+.theme-preview.nsfw.selected .both {
+  transition:opacity .3s, right .3s;
+}
+.theme-preview.nsfw .notsafe {
+  opacity:1;
+  right:3px;
+  z-index:1;
+}
+.theme-preview.selected .safe {
+  opacity:1;
+  right:3px;
+  z-index:1;
+}
+.theme-preview.selected.nsfw .sfw-label:not(.both) {
+  opacity:0 !important;
+  right:300px !important;
+  z-index:0 !important;
+}
+.theme-preview.selected.nsfw .both {
+  opacity:1;
+  right:3px;
+  z-index:1;  
+}
+/* Add Theme */
+#add-theme {
+  text-align:left!important;
+  width:800px!important;
+}
+#add-theme>label {
+  display:inline-block;
+  text-align:right;
+  width:33.3%;
+}
+#add-theme>label#customCSS {
+  width:100%;
+}
+#add-theme>label#customCSS>textarea {
+  height: 9.5em;
+  resize: vertical;
+  width: 99%;
+  max-height: 25em;
+}
+#add-theme>label>input[type=text],
+#add-theme>label>select {
+  width:100px;
+}
+#add-theme>div {
+  margin-top:.6em;
+  text-align:right;
+}
+/* Mascots */
+#mascot-section {
+  text-align:center;
+}
+.mascot-preview {
+  background-position:center !important;
+  background-repeat:no-repeat!important;
+  background-size: contain !important;
+  display:inline-block;
+  height:257px;
+  margin:2px;
+  position:relative;
+  width:210px;
+  border-radius:10px;
+  transition:all .1s;
+}
+.mascot-preview:not(:hover) a:not(.mascot-name) {
+  opacity: 0;
+}
+.mascot-preview.selected {
+  background-color:rgba(" + $SS.theme.linkColor.rgb + ",.6)!important;
+  box-shadow:inset rgba(0,0,0,.15) 0 0 15px, rgba(" + $SS.theme.linkColor.rgb + ",.6) 0 0 2px;
+}
+.mascot-preview a {
+  color: #ffffff !important;
+  padding:3px 8px;
+  cursor: pointer;
+  border-radius: 2px;
+  background:rgba(0,0,0,.6);
+}
+.mascot-preview a:hover {
+  background:rgba(0,0,0,.8);
+}
+.mascot-link.edit {
+  margin-left: 1px;
+}
+.mascot-buttons {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+}
+/* Add Mascot */
+#mascot-buttons-container {
+  padding: 1px;
+  margin-top: 2px;
+}
+.add-mascot-label {
+  display:block;
+}
+.mascot-input,
+.mascot-select {
+  margin-top:1px!important;
+  width:200px;
+}
+.mascot-input.offset,
+.mascot-input.hoffset,
+.mascot-input.height,
+.mascot-input.maxwidth,
+.mascot-input.width {
+  width:80px;
+}
+.add-mascot-label>input[type=checkbox],
+.add-mascot-label>.riceCheck {
+  margin-top:5px;
+}
+/* Navigation */
+#options-tabs {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position:absolute;
+  top:-24px;
+  left: -1px;
+}
+.tab-item {
+  float:left;
+  margin:0;
+  padding:0;
+}
+.tab-label {
+  display:block;
+  height:16px;
+  margin:0 1px;
+  padding: 5px;
+  text-align:center;
+  width:75px;
+  border-radius:3px 3px 0 0;
+  transition: all .1s ease-in-out;
+}
+.tab-label:not(.selected):not(:hover) {
+  opacity: 0.8;
+}
+/* Overlays */
+#overlay {
+  z-index: 99 !important;
+  background-color:rgba(0,0,0,.3) !important;
+}
+#overlay2 {
+  background:rgba(0,0,0,.1) !important;
+  position:fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  text-align:center;
+  z-index:125!important;
+}
+#overlay2::before {
+  content:'';
+  display:inline-block;
+  height:100%;
+  vertical-align:middle;
+}
+#overlay.previewing {
+  display: none;
+}
+#overlay.previewing ~ #overlay2 {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+#add-mascot + #overlay2 {
+  z-index: 800 !important;
+}
+/* Buttons */
+.buttons-container {
+  bottom:3px;
+  left:5px;
+  position:absolute;
+}
+.buttons-container {
+  margin:0;
+}
+.options-button {
+  display:inline-block;
+  line-height:18px;
+  margin:0 2px;
+  min-width:40px;
+  padding:2px 10px;
+  text-align:center;
+  cursor: pointer;
+  border-radius:3px;
+}
+.options-button-small {
+  padding:2px 5px;
+  min-width:30px;
+}
+#import-link {
+  line-height:22px;
+  overflow:hidden;
+  position:relative;
+  float:left;
+  height:24px!important;
+  margin-top:-2px;
+  padding-top:2px;
+}
+#import-settings {
+  position: relative;
+  overflow:hidden;
+  vertical-align: bottom;
+}
+#import-settings>.import-input {
+  left: 0;
+}
+.import-input {
+  position:absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/* Inputs */
+label.option>input[type=checkbox],
+label.option>.riceCheck {
+  margin: 4px 2px 0 !important;
+  vertical-align: bottom !important;
+}
+span.option>select,
+.option>input[type=text] {
+  width:125px;
+}
+#oneechan-options input[type=text],
+#oneechan-options select {
+  max-height: 20px;
+  margin-top: 1px !important;
+  padding: 0px 3px !important;
+}
+#oneechan-options textarea {
+  background:transparent!important;
+  border: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  resize: none;
+}
+/* Links */
+#oneechan-version {
+  opacity: .5;
+  padding-right: 5px;
+  padding-left: 40px;
+  font-size: x-small;
+}
+.link-delim {
+  opacity: .4;
+}
