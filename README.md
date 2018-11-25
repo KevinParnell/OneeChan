@@ -1,3 +1,5 @@
+Current version - 5.7.4
+
 Nov 2018 Update - Updated for support for https://4channel.org for the SFW boards
 
 If you want to talk directly with me about stuff feel free to visit my [technical support Discord server](https://discord.gg/BPxUHXj)
