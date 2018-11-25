@@ -1,4 +1,4 @@
-### v5.7.0
+### v5.7.5
 *2018-11-25*
 
 - Add auto update support
