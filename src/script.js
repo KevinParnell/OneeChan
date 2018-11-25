@@ -276,7 +276,7 @@
         NAME = "OneeChan",
         NAMESPACE = "OneeChan.",
         VERSION = "<%= version %>",
-        CHANGELOG = "https://github.com/nebukazar/OneeChan/blob/master/CHANGELOG.md",
+        CHANGELOG = "https://github.com/KevinParnell/OneeChan/blob/master/CHANGELOG.md",
         inputImages = "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAgCAYAAAAv8DnQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAP9JREFUOMvV0CFLQ2EYxfHfrtdiURgbmCxOmFPBJgZZ0CQD0Q+goFkwabWIyWIWFgwmy7Qp7DPI3GD7ACZlYLNcy31ljG0aDHrSy3N43nOef6ZULBiifczEQ8wV7OAtGmBO4wgfOI2whsXUnMAJ8rhCJ8IxDpHDHpZwixqM5XPZBBtYxioauEgjRLjBI2bRxTneQ6EYCS4xiTu89DbONJrtP88hwnV64hm28YRqyPsFDkmSGKUYFubnsqignM7rqDWa7dcAqoLdnsXwrgZQ5QG/l8MVIxX1ZPar/lUyUOsv+aMzv+0Qw3OrM4VNrKfzB9yXioVu6LDVx+EA4/+Gwycw/Uz36O07WwAAAABJRU5ErkJggg==",
         fontListSWF = "https://ahodesuka.github.com/FontList.swf",
         themeInputs = [{
@@ -1309,7 +1309,7 @@
                     p = $("<p class='buttons-container'>");
 
                 p.append($("<a class='options-button' name=addTheme title='Create a new theme.'>Create", tOptions).bind("click", $SS.options.showTheme));
-                p.append($("<a class='options-button' href='https://github.com/Nebukazar/OneeChan/wiki/Custom-Themes' title='Learn more about custom themes and download new ones.' target='_blank'>Custom Themes"));
+                p.append($("<a class='options-button' href='https://github.com/KevinParnell/OneeChan/wiki/Custom-Themes' title='Learn more about custom themes and download new ones.' target='_blank'>Custom Themes"));
                 p.append($("<div id='import-link' title='Import a new theme (.json) file.'>").append($("<input type=file class='import-input' riced=true>")
                     .bind("change", function() {
                         var file = this.files[0],
@@ -2904,6 +2904,10 @@
         /* MASCOTS */
         Mascots: {
             defaults: [{
+                img: "https://i.imgtc.com/gGHghJr.png",
+                "default": true,
+                name: "Best Girl (Aqua)"
+            }, {
                 img: "https://i.imgur.com/efamPLp.png",
                 "default": true,
                 name: "Akaza Akari"
