@@ -1,6 +1,3 @@
-DON'T NEED MASCOTS? TRY [STYLECHAN](https://github.com/nebukazar/StyleChan) :camel: DEAD don't click
-==
-
 Nov 2018 Update - Updated for support for https://4channel.org for the SFW boards
 
 OneeChan
@@ -20,8 +17,7 @@ Installing [4chan X](#compatibility-with-4chan-x-forks-and-others) is **required
 
 - Firefox: Requires the [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/) addon. Click the Install link above.
 
-- Chrome: Requires the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl) extension. Click the Install link above. Alternatively you can download a [.crx here](https://nebukazar.github.io/OneeChan/builds/OneeChan.crx) if you are using Chromium or are not using Windows. Drag&drop into the extensions page to install.
-
+- Chrome: Requires the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl) extension. Click the Install link above.
 - Pale Moon: Requires the [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/versions/?page=2#version-1.15.1-signed) addon. Click the Install link above.
 
 - MS Edge: Requires the [Tampermonkey](https://www.microsoft.com/store/apps/9NBLGGH5162S) addon. Click the Install link above.
