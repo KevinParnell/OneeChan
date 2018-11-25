@@ -15,7 +15,7 @@ Originally developed by [seaweedchan](https://github.com/seaweedchan), this fork
 
 #### Install instructions
 
-Installing [4chan X](#compatibility-with-4chan-x-forks-and-others) is **required** for Oneechan to work.
+Installing [4chan X](https://github.com/ccd0/4chan-x) is **required** for Oneechan to work.
 
 - Firefox: Requires the [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/) addon. Click the Install link above.
 
