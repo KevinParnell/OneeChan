@@ -1,3 +1,8 @@
+### v5.7.0
+*2018-11-24*
+
+- Add support for https://4channel.org
+
 ### v5.6.2
 *2018-06-05*
 
