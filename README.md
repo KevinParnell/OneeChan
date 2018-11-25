@@ -41,7 +41,7 @@ Add this to your uBlock Origin filters list:
 @@||boards.4channel.org^$csp 
 ```
 
-if you are encountering this error:
+if you are encountering this error (can be seen with any theme):
 
 ![image](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/1543173395179.png)
 
