@@ -1,4 +1,9 @@
 ### v5.7.0
+*2018-11-25*
+
+- Add auto update support
+
+### v5.7.0
 *2018-11-24*
 
 - Add support for https://4channel.org
