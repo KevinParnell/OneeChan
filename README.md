@@ -78,6 +78,7 @@ ccd0's 4chan X is the recommended 4chan X version and the one OneeChan is primar
 #### Settings I use (seen in screenshots)
 
 [4chan X](https://my.mixtape.moe/ccttzx.json)
+
 [OneeChan](https://my.mixtape.moe/snwupv.json)
 
 Just import them and it'll ask to reload the page.
