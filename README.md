@@ -1,4 +1,4 @@
-Current version - 5.7.4
+Current version - 5.7.5
 
 Nov 2018 Update - Updated for support for https://4channel.org for the SFW boards
 
