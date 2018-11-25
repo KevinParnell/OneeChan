@@ -28,7 +28,25 @@ Installing [4chan X](#compatibility-with-4chan-x-forks-and-others) is **required
 
 An optional script I would recommend is a (You) counter - [All-Time-You-Count](https://github.com/KevinParnell/All-time-You-count)
 
+#### uBlock Origin filters fix:
+
+Add this to your uBlock Origin filters list:
+
+```
+@@||4chan.org^*$csp=default-src 'self' * data: 'unsafe-inline' 'unsafe-eval'
+@@|blob:$image,media,domain=4chan.org
+@@||boards.4chan.org^$csp
+@@||4channel.org^*$csp=default-src 'self' * data: 'unsafe-inline' 'unsafe-eval'
+@@|blob:$image,media,domain=4channel.org
+@@||boards.4channel.org^$csp 
+```
+
+if you are encountering this error:
+
+![image](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/1543173395179.png)
+
 #### Compatibility with 4chan X forks and others:
+
 (Updated 2015-03-03)
 
 - [ccd0](https://github.com/ccd0/4chan-x) /// `Compatible` (Recommended)
