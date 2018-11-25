@@ -24,6 +24,7 @@ Installing [4chan X](#compatibility-with-4chan-x-forks-and-others) is **required
 
 - Safari: Requires the [Tampermonkey](https://safari-extensions.apple.com/details/?id=net.tampermonkey.safari-G3XV72R5TC) addon. Click the Install link above.
 
+An optional script I would recommend is a (You) counter - [All-Time-You-Count](https://github.com/KevinParnell/All-time-You-count)
 
 #### Compatibility with 4chan X forks and others:
 (Updated 2015-03-03)
@@ -54,5 +55,10 @@ ccd0's 4chan X is the recommended 4chan X version and the one OneeChan is primar
 
 #### Screenshots
 
-[![/images/thumb00.jpg](/images/thumb00.jpg)](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/ex00.png) [![/images/thumb01.jpg](/images/thumb01.jpg)](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/ex01.png) [![/images/thumb02.jpg](/images/thumb02.jpg)](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/ex03.png)
+Catalog
 
+![image](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/catalog.png)
+
+Thread
+
+![image](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/thread.png)
