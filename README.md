@@ -1,5 +1,7 @@
-DON'T NEED MASCOTS? TRY [STYLECHAN](https://github.com/nebukazar/StyleChan) :camel:
+DON'T NEED MASCOTS? TRY [STYLECHAN](https://github.com/nebukazar/StyleChan) :camel: DEAD don't click
 ==
+
+Nov 2018 Update - Updated for support for https://4channel.org for the SFW boards
 
 OneeChan
 ====
