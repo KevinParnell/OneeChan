@@ -1,6 +1,6 @@
 {
   "name": "OneeChan",
-  "version": "5.7.0",
+  "version": "5.7.1",
   "description": "Customizable rice and themes for 4chan X.",
   "meta": {
     "name": "OneeChan",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nebukazar/OneeChan.git"
+    "url": "https://github.com/KevinParnell/OneeChan.git"
   },
   "author": "seaweedchan",
   "contributors": [
