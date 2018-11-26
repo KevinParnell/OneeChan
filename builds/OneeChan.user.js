@@ -2960,200 +2960,234 @@
             defaults: [{
                 img: "https://i.imgtc.com/gGHghJr.png",
                 "default": true,
-                name: "Best Girl (Aqua)"
+                name: "Best Girl (Aqua)",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgtc.com/fGjcFVW.png",
                 "default": true,
-                name: "Megumin"
+                name: "Megumin",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgtc.com/sDMP4jR.png",
                 "default": true,
-                name: "Satania"
+                name: "Satania",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgtc.com/Z4eCenM.png",
                 "default": true,
-                name: "Aquarch Linux"
+                name: "Aquarch Linux",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgtc.com/rihdvx4.png",
                 "default": true,
-                name: "Bowsette"
+                name: "Bowsette",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgtc.com/ARt5QmC.png",
                 "default": true,
-                name: "JC & JS"
+                name: "JC & JS",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/efamPLp.png",
                 "default": true,
-                name: "Akaza Akari"
+                name: "Akaza Akari",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/8v6aSbV.png",
                 "default": true,
-                name: "Akemi Homura"
+                name: "Akemi Homura",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/fgbEdWe.png",
                 "default": true,
-                name: "Akiyama Mio"
+                name: "Akiyama Mio",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/FWC00jB.png",
                 "default": true,
-                name: "Ali Baba"
+                name: "Ali Baba",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/AD18Ld2.png",
                 "default": true,
-                name: "Asuka Shikinami Langley"
+                name: "Asuka Shikinami Langley",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/u65u8oN.png",
                 "default": true,
-                name: "Cirno"
+                name: "Cirno",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/97DaEBD.png",
                 "default": true,
-                name: "Fubuki Atsuya"
+                name: "Fubuki Atsuya",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/BurJnOd.png",
                 "default": true,
                 name: "Gasai Yuno",
                 height: "460px",
-                hoffset: "40"
+                hoffset: "40",
             }, {
                 img: "https://i.imgur.com/HsqOvDJ.png",
                 "default": true,
-                name: "Hatsune Miku"
+                name: "Hatsune Miku",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/ZttwSus.png",
                 "default": true,
-                name: "Hirasawa Yui"
+                name: "Hirasawa Yui",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/ttQDirH.png",
                 "default": true,
-                name: "Hitagi Senjougahara"
+                name: "Hitagi Senjougahara",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/4F6BAMZ.png",
                 "default": true,
                 name: "Horo",
-                hoffset: "20"
+                hoffset: "20",
             }, {
                 img: "https://i.imgur.com/83sf3ZL.png",
                 "default": true,
                 name: "Inga",
-                width: "301px"
+                width: "301px",
             }, {
                 img: "https://i.imgur.com/4FsUkrN.png",
                 "default": true,
-                name: "Iwakura Lain"
+                name: "Iwakura Lain",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/AMmCyhq.png",
                 "default": true,
-                name: "Kagami Taiga"
+                name: "Kagami Taiga",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/v5aBcVe.png",
                 "default": true,
                 name: "Kaguya Houraisan",
-                hoffset: "-40"
+                hoffset: "-40",
             }, {
                 img: "https://i.imgur.com/TVlagl3.png",
                 "default": true,
                 name: "Kaname Madoka",
-                hoffset: "25"
+                hoffset: "25",
             }, {
                 img: "https://i.imgur.com/aXVz09Y.png",
                 "default": true,
                 name: "Kikuchi Makoto",
-                hoffset: "20"
+                hoffset: "20",
             }, {
                 img: "https://i.imgur.com/X1r8AiN.png",
                 "default": true,
                 name: "Kirino x Kariya",
-                hoffset: "1"
+                hoffset: "1",
             }, {
                 img: "https://i.imgur.com/MCvbGgt.png",
                 "default": true,
-                name: "Kirisame Marisa"
+                name: "Kirisame Marisa",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/4Hdd0R8.png",
                 "default": true,
                 name: "Kisaragi Chihaya",
-                width: "306px"
+                width: "306px",
             }, {
                 img: "https://i.imgur.com/E0sdnuC.png",
                 "default": true,
-                name: "Kousaka Kirino"
+                name: "Kousaka Kirino",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/pMNliiX.png",
                 "default": true,
-                name: "Kurisu Makise"
+                name: "Kurisu Makise",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/TwcfQPD.png",
                 "default": true,
                 name: "Kuriyama Mirai",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/FNgiG0D.png",
                 "default": true,
                 name: "Kuroko no Basuke",
-                hoffset: "25"
+                hoffset: "25",
             }, {
                 img: "https://i.imgur.com/qSUOgQ9.png",
                 "default": true,
-                name: "Kusanagi Motoko"
+                name: "Kusanagi Motoko",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/BxJylsO.png",
                 "default": true,
-                name: "Mashiro Shiina"
+                name: "Mashiro Shiina",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/Xgzke7s.png",
                 "default": true,
-                name: "Mayoi Hachikuji"
+                name: "Mayoi Hachikuji",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/0ogSJHX.png",
                 "default": true,
-                name: "Megurine Luka"
+                name: "Megurine Luka",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/TCXQaaQ.png",
                 "default": true,
-                name: "Mikasa Ackerman"
+                name: "Mikasa Ackerman",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/GhwBI5n.png",
                 "default": true,
-                name: "Miyamoto Konatsu"
+                name: "Miyamoto Konatsu",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/NqDwk7d.png",
                 "default": true,
                 name: "Mokou no Fujiwara",
-                height: "450px"
+                height: "450px",
             }, {
                 img: "https://i.imgur.com/Otig7OD.png",
                 "default": true,
                 name: "Morrigan Aensland",
-                width: "300px"
+                width: "300px",
             }, {
                 img: "https://i.imgur.com/SRWU4e1.png",
                 "default": true,
-                name: "Nagase Iori"
+                name: "Nagase Iori",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/zio62Qq.png",
                 "default": true,
                 name: "Nagato Yuki",
-                hoffset: "25"
+                hoffset: "25",
             }, {
                 img: "https://i.imgur.com/pfqZLHo.png",
                 "default": true,
-                name: "Nakano Azusa"
+                name: "Nakano Azusa",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/7zJ6F35.png",
                 "default": true,
-                name: "Patchouli Knowledge"
+                name: "Patchouli Knowledge",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/OF68sMQ.png",
                 "default": true,
-                name: "Poko Fox"
+                name: "Poko Fox",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/iCzq9oO.png",
                 "default": true,
-                name: "Purple Heart"
+                name: "Purple Heart",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/3YSqyiI.png",
                 "default": true,
-                name: "Remilia Scarlet"
+                name: "Remilia Scarlet",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/sFh3eE0.png",
                 "default": true,
@@ -3163,7 +3197,8 @@
                 img: "https://i.imgur.com/UtjqvU6.png",
                 "default": true,
                 name: "Ruri Gokou",
-                hoffset: "20"
+                hoffset: "20",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/H7GtZ9j.png",
                 "default": true,
@@ -3199,11 +3234,13 @@
             }, {
                 img: "https://i.imgur.com/AFINQjc.png",
                 "default": true,
-                name: "Touwa Erio"
+                name: "Touwa Erio",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/rddrYFR.png",
                 "default": true,
-                name: "Yin"
+                name: "Yin",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/bEPA1rz.png",
                 "default": true,
@@ -3213,11 +3250,13 @@
             }, {
                 img: "https://i.imgur.com/uu6Dh0I.png",
                 "default": true,
-                name: "Yukinoshita Yukino"
+                name: "Yukinoshita Yukino",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/283FX36.png",
                 "default": true,
-                name: "Yuuki Asuna"
+                name: "Yuuki Asuna",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/84HOYIc.png",
                 "default": true,
@@ -3231,15 +3270,18 @@
             }, {
                 img: "https://i.imgur.com/cPXpt6h.png",
                 "default": true,
-                name: "Symbol 02"
+                name: "Symbol 02",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgtc.com/Rvjudrb.png",
                 "default": true,
-                name: "Degenerate Pony Shit"
+                name: "Degenerate Pony Shit",
+                "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/efV7fRL.png",
                 "default": true,
-                name: "Symbol 03"
+                name: "Symbol 03",
+                "maxwidth": true,
             }],
 
             init: function() {
