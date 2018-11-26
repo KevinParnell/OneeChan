@@ -2962,6 +2962,26 @@
                 "default": true,
                 name: "Best Girl (Aqua)"
             }, {
+                img: "https://i.imgtc.com/fGjcFVW.png",
+                "default": true,
+                name: "Megumin"
+            }, {
+                img: "https://i.imgtc.com/sDMP4jR.png",
+                "default": true,
+                name: "Satania"
+            }, {
+                img: "https://i.imgtc.com/Z4eCenM.png",
+                "default": true,
+                name: "Aquarch Linux"
+            }, {
+                img: "https://i.imgtc.com/rihdvx4.png",
+                "default": true,
+                name: "Bowsette"
+            }, {
+                img: "https://i.imgtc.com/ARt5QmC.png",
+                "default": true,
+                name: "JC & JS"
+            }, {
                 img: "https://i.imgur.com/efamPLp.png",
                 "default": true,
                 name: "Akaza Akari"
@@ -3212,6 +3232,10 @@
                 img: "https://i.imgur.com/cPXpt6h.png",
                 "default": true,
                 name: "Symbol 02"
+            }, {
+                img: "https://i.imgtc.com/Rvjudrb.png",
+                "default": true,
+                name: "Degenerate Pony Shit"
             }, {
                 img: "https://i.imgur.com/efV7fRL.png",
                 "default": true,
