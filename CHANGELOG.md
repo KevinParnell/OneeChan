@@ -1,3 +1,8 @@
+### v5.7.7
+*2018-11-26*
+
+- Fix mascot scaling (thanks QuillOmega0)
+
 ### v5.7.6
 *2018-11-26*
 
