@@ -1,4 +1,6 @@
-#### Current version - 5.7.7
+#### Current version - 5.7.9
+
+Mar 2019 Update - Switching image host to GitHub as the old host is gone
 
 Nov 2018 Update - Updated for support for https://4channel.org for the SFW boards
 
