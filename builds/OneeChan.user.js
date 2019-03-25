@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name OneeChan
-// @version 5.7.7
+// @version 5.7.8
 // @namespace OneeChan
 // @description Customizable rice and themes for 4chan X.
 // @author Kevin Parnell
@@ -2991,7 +2991,7 @@
         /* MASCOTS */
         Mascots: {
             defaults: [{
-                img: "https://i.imgtc.com/gGHghJr.png",
+                img: "https://github.com/KevinParnell/OneeChan/images/dab2648e-24d5-41e3-c195-156a891cafa6.png",
                 "default": true,
                 name: "Best Girl (Aqua)",
                 "maxwidth": true,
