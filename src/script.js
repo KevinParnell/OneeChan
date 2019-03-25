@@ -2904,7 +2904,7 @@
         /* MASCOTS */
         Mascots: {
             defaults: [{
-                img: "https://i.imgtc.com/gGHghJr.png",
+                img: "https://github.com/KevinParnell/OneeChan/images/dab2648e-24d5-41e3-c195-156a891cafa6.png",
                 "default": true,
                 name: "Best Girl (Aqua)"
             }, {
