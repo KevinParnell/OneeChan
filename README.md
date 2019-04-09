@@ -1,10 +1,13 @@
-#### Current version - 5.7.9
+#### Current version - 5.8.0
+
+If you want to talk directly with me about stuff feel free to visit my [technical support Discord server](https://discord.gg/BPxUHXj)
+
+Apr 2019 Update - Made it possible to move around the reply box
 
 Mar 2019 Update - Switching image host to GitHub as the old host is gone
 
 Nov 2018 Update - Updated for support for https://4channel.org for the SFW boards
 
-If you want to talk directly with me about stuff feel free to visit my [technical support Discord server](https://discord.gg/BPxUHXj)
 
 OneeChan
 ====
