@@ -40,7 +40,7 @@ An optional script I would recommend is a (You) counter - [All-Time-You-Count](h
 
 #### Adblock/pihole filters fix:
 
-Add this to your uBlock Origin filters list:
+Add this to your filters list:
 
 ```
 @@||4chan.org^*$csp=default-src 'self' * data: 'unsafe-inline' 'unsafe-eval'
