@@ -38,7 +38,7 @@ Installing [4chan X](https://github.com/ccd0/4chan-x) is **required** for Oneech
 
 An optional script I would recommend is a (You) counter - [All-Time-You-Count](https://github.com/KevinParnell/All-time-You-count)
 
-#### uBlock Origin filters fix:
+#### Adblock/pihole filters fix:
 
 Add this to your uBlock Origin filters list:
 
