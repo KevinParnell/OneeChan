@@ -2993,12 +2993,12 @@
             defaults: [{
                 img: "https://kevinparnell.dev/eloper/deku.png",
                 "default": true,
-                name: "Izuku 'Deku' Midoriya",
+                name: "Izuku (Deku) Midoriya",
                 "maxwidth": true,
             }, {
                 img: "https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/dab2648e-24d5-41e3-c195-156a891cafa6.png",
                 "default": true,
-                name: "Best Girl (Aqua)",
+                name: "Aqua",
                 "maxwidth": true,
             }, {
                 img: "https://i.imgtc.com/fGjcFVW.png",
