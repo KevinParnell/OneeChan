@@ -1,6 +1,8 @@
-#### Current version - 5.8.2
+#### Current version - 5.8.3
 
 If you want to talk directly with me about stuff feel free to visit my [technical support Discord server](https://discord.gg/BPxUHXj)
+
+Jun 2019 Update - Added a new mascot, will be working on putting all the mascots in a new host
 
 Apr 2019 Update - Made it possible to move around the reply box
 
