@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name OneeChan
-// @version 5.8.2
+// @version 5.8.3
 // @namespace OneeChan
 // @description Customizable rice and themes for 4chan X.
 // @author Kevin Parnell
@@ -2993,7 +2993,7 @@
             defaults: [{
                 img: "https://kevinparnell.dev/eloper/deku.png",
                 "default": true,
-                name: "Izuku (Deku) Midoriya",
+                name: "Izuku 'Deku' Midoriya",
                 "maxwidth": true,
             }, {
                 img: "https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/dab2648e-24d5-41e3-c195-156a891cafa6.png",
