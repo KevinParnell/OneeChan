@@ -26,7 +26,7 @@ Originally developed by [seaweedchan](https://github.com/seaweedchan), this fork
 
 Installing [4chan X](https://github.com/ccd0/4chan-x) is **required** for Oneechan to work.
 
-- Firefox: Requires the [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/) extension. Click the Install link above.
+- Firefox: Requires the [Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) extension. Click the Install link above.
 
 - Chrome: Requires the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl) extension. Click the Install link above.
 
