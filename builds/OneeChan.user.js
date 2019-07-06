@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name OneeChan
-// @version 5.8.3
+// @version 5.8.4
 // @namespace OneeChan
 // @description Customizable rice and themes for 4chan X.
 // @author Kevin Parnell
@@ -2999,6 +2999,11 @@
                 img: "https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/dab2648e-24d5-41e3-c195-156a891cafa6.png",
                 "default": true,
                 name: "Aqua",
+                "maxwidth": true,
+            }, {
+                img: "https://kevinparnell.dev/eloper/Ochako_Uraraka.png",
+                "default": true,
+                name: "Ochako Uraraka",
                 "maxwidth": true,
             }, {
                 img: "https://i.imgtc.com/fGjcFVW.png",
