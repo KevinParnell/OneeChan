@@ -1,6 +1,8 @@
-#### Current version - 5.8.4
+#### Current version - 5.8.5
 
 If you want to talk directly with me about stuff feel free to visit my [technical support Discord server](https://discord.gg/BPxUHXj)
+
+Jul 2019 Update - Put some mascots into new final image host, https://onee.moe
 
 Jun 2019 Update - Added a new mascot, will be working on putting all the mascots in a new host
 
