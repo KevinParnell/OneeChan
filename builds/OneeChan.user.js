@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name OneeChan
-// @version 5.8.4
+// @version 5.8.5
 // @namespace OneeChan
 // @description Customizable rice and themes for 4chan X.
 // @author Kevin Parnell
@@ -2991,19 +2991,24 @@
         /* MASCOTS */
         Mascots: {
             defaults: [{
-                img: "https://kevinparnell.dev/eloper/deku.png",
+                img: "https://onee.moe/i/deku.png",
                 "default": true,
                 name: "Izuku 'Deku' Midoriya",
+                "maxwidth": true,
+            }, {
+                img: "https://onee.moe/i/Ochako_Uraraka.png",
+                "default": true,
+                name: "Ochako Uraraka",
+                "maxwidth": true,
+            }, {
+                img: "https://onee.moe/i/Satania.png",
+                "default": true,
+                name: "Satania",
                 "maxwidth": true,
             }, {
                 img: "https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/dab2648e-24d5-41e3-c195-156a891cafa6.png",
                 "default": true,
                 name: "Aqua",
-                "maxwidth": true,
-            }, {
-                img: "https://kevinparnell.dev/eloper/Ochako_Uraraka.png",
-                "default": true,
-                name: "Ochako Uraraka",
                 "maxwidth": true,
             }, {
                 img: "https://i.imgtc.com/fGjcFVW.png",
