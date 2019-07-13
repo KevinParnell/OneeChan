@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name OneeChan
-// @version 5.8.5
+// @version 5.8.6
 // @namespace OneeChan
 // @description Customizable rice and themes for 4chan X.
 // @author Kevin Parnell
@@ -3185,6 +3185,11 @@
                 img: "https://i.imgur.com/TCXQaaQ.png",
                 "default": true,
                 name: "Mikasa Ackerman",
+                "maxwidth": true,
+            }, {
+                img: "https://onee.moe/i/Majima.png",
+                "default": true,
+                name: "Majima",
                 "maxwidth": true,
             }, {
                 img: "https://i.imgur.com/GhwBI5n.png",
