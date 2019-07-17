@@ -80,6 +80,7 @@ ccd0's 4chan X is the recommended 4chan X version and the one OneeChan is primar
 
 - Please refer to the [Wiki](https://github.com/KevinParnell/OneeChan/wiki) for instructions
 
+- If you are having issues with mascots saving or resetting, please manually select 'Select none' and save, fully refresh the page or exit, and reload it. Reselect your mascots manually, this should fix any issue with mascot settings not saving.
 
 #### Development & Contribution
 
