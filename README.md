@@ -1,4 +1,4 @@
-#### Current version - 5.8.6
+#### Current version - 5.8.7
 
 If you want to talk directly with me about stuff feel free to visit my [technical support Discord server](https://discord.gg/BPxUHXj)
 
@@ -80,6 +80,7 @@ ccd0's 4chan X is the recommended 4chan X version and the one OneeChan is primar
 
 - Please refer to the [Wiki](https://github.com/KevinParnell/OneeChan/wiki) for instructions
 
+- If you are having issues with mascots saving or resetting, please manually select 'Select none' and save, fully refresh the page or exit, and reload it. Reselect your mascots manually, this should fix any issue with mascot settings not saving.
 
 #### Development & Contribution
 

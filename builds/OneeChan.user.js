@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name OneeChan
-// @version 5.8.6
+// @version 5.8.7
 // @namespace OneeChan
 // @description Customizable rice and themes for 4chan X.
 // @author Kevin Parnell
@@ -3014,11 +3014,6 @@
                 img: "https://i.imgtc.com/fGjcFVW.png",
                 "default": true,
                 name: "Megumin",
-                "maxwidth": true,
-            }, {
-                img: "https://i.imgtc.com/sDMP4jR.png",
-                "default": true,
-                name: "Satania",
                 "maxwidth": true,
             }, {
                 img: "https://i.imgtc.com/Z4eCenM.png",
