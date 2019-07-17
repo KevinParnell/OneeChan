@@ -3016,11 +3016,6 @@
                 name: "Megumin",
                 "maxwidth": true,
             }, {
-                img: "https://i.imgtc.com/sDMP4jR.png",
-                "default": true,
-                name: "Satania",
-                "maxwidth": true,
-            }, {
                 img: "https://i.imgtc.com/Z4eCenM.png",
                 "default": true,
                 name: "Aquarch Linux",
