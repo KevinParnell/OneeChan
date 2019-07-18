@@ -2,7 +2,7 @@
 *2019-06-17*
 
 - Many updates since this has been updated, and maintained. Read top of README.md for more information on what has changed.
-- If you are having mascot saving issues please read the troubleshooting portion of README on how to fix this.
+- Mascots changing on updates has been resolved. This is the last update where your mascot will change.
 
 ### v5.7.7
 *2018-11-26*
