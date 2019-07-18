@@ -2,7 +2,7 @@
 *2019-06-17*
 
 - Many updates since this has been updated, and maintained. Read top of README.md for more information on what has changed.
-- Mascots changing on updates has been resolved. This is the last update where your mascot will change.
+- Mascots changing on updates has been resolved. This is the last update where your mascot will change. See https://github.com/KevinParnell/OneeChan/issues/18 for full explanation
 
 ### v5.7.7
 *2018-11-26*

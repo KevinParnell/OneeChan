@@ -2,7 +2,7 @@
 
 If you want to talk directly with me about stuff feel free to visit my [technical support Discord server](https://discord.gg/BPxUHXj)
 
-Jul 2019 Update 2 - Mascots changing after updates were due to removal or additions not added to the bottom of the list, changing the order of mascots and therefore changing your selection. This update should be the last time your mascots are changed.
+Jul 2019 Update 2 - Mascots changing after updates were due to removal or additions not added to the bottom of the list, changing the order of mascots and therefore changing your selection. This update should be the last time your mascots are changed. See https://github.com/KevinParnell/OneeChan/issues/18 for full explanation. 
 
 Jul 2019 Update - Put some mascots into new final image host, https://onee.moe
 
