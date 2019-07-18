@@ -250,7 +250,7 @@
                     value: "Helvetica"
                 }]
             ],
-            "Font Size": [13, "Set the general size of text (Pixels). Min: 10px, Max: 18px"],
+            "Font Size": [13, "Set the general size of text (Pixels). Min: 8px, Max: 40px"],
             "Backlink Font Size": [9, "Set the font size of backlinks."],
             "Bitmap Font": [false, "Check this if you are using a bitmap font."],
             ":: Compatibility": ["header", ""],
@@ -271,8 +271,8 @@
             "Mascots": [],
             "Hidden Mascots": []
         },
-        MAX_FONT_SIZE = 18,
-        MIN_FONT_SIZE = 10,
+        MAX_FONT_SIZE = 40,
+        MIN_FONT_SIZE = 8,
         NAME = "OneeChan",
         NAMESPACE = "OneeChan.",
         VERSION = "5.8.7",

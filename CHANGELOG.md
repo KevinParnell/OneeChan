@@ -1,3 +1,8 @@
+### v5.8.8
+*2019-07-18*
+- Fixed package.json error, can now be built with grunt, for proper deployment.
+- Changed font max and minimum sizes.
+
 ### v5.8.7
 *2019-06-17*
 
