@@ -7,4 +7,4 @@ TODO.md
 *.pem
 Gruntfile.js
 .directory
-.package-lock.json
+package-lock.json
