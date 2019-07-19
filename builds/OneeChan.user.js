@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name OneeChan
-// @version 5.8.7
+// @version 5.8.8
 // @namespace OneeChan
 // @description Customizable rice and themes for 4chan X.
 // @author Kevin Parnell
@@ -271,7 +271,7 @@
                     value: "Helvetica"
                 }]
             ],
-            "Font Size": [13, "Set the general size of text (Pixels). Min: 10px, Max: 18px"],
+            "Font Size": [13, "Set the general size of text (Pixels). Min: 8px, Max: 40px"],
             "Backlink Font Size": [9, "Set the font size of backlinks."],
             "Bitmap Font": [false, "Check this if you are using a bitmap font."],
             ":: Compatibility": ["header", ""],
@@ -292,11 +292,11 @@
             "Mascots": [],
             "Hidden Mascots": []
         },
-        MAX_FONT_SIZE = 18,
-        MIN_FONT_SIZE = 10,
+        MAX_FONT_SIZE = 40,
+        MIN_FONT_SIZE = 8,
         NAME = "OneeChan",
         NAMESPACE = "OneeChan.",
-        VERSION = "5.7.7",
+        VERSION = "5.8.8",
         CHANGELOG = "https://github.com/KevinParnell/OneeChan/blob/master/CHANGELOG.md",
         inputImages = "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAgCAYAAAAv8DnQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAP9JREFUOMvV0CFLQ2EYxfHfrtdiURgbmCxOmFPBJgZZ0CQD0Q+goFkwabWIyWIWFgwmy7Qp7DPI3GD7ACZlYLNcy31ljG0aDHrSy3N43nOef6ZULBiifczEQ8wV7OAtGmBO4wgfOI2whsXUnMAJ8rhCJ8IxDpHDHpZwixqM5XPZBBtYxioauEgjRLjBI2bRxTneQ6EYCS4xiTu89DbONJrtP88hwnV64hm28YRqyPsFDkmSGKUYFubnsqignM7rqDWa7dcAqoLdnsXwrgZQ5QG/l8MVIxX1ZPar/lUyUOsv+aMzv+0Qw3OrM4VNrKfzB9yXioVu6LDVx+EA4/+Gwycw/Uz36O07WwAAAABJRU5ErkJggg==",
         fontListSWF = "https://ahodesuka.github.com/FontList.swf",
@@ -3346,7 +3346,7 @@
                     for (var i = 0, MAX = $SS.conf["Selected Mascots"].length, j; i < MAX; ++i) {
                         j = $SS.conf["Selected Mascots"][i];
 
-                        if ($SS.conf["Mascots"][j].boards == undefined ||
+                        if ($SS.conf["Mascots"] == undefined || $SS.conf["Mascots"][j] == undefined || $SS.conf["Mascots"][j].boards == undefined ||
                             $SS.conf["Mascots"][j].boards.split(",").indexOf($SS.location.board) !== -1)
                             eMascot.push(j);
                     }

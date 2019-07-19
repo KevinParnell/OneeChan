@@ -1,3 +1,10 @@
+### v5.8.8
+*2019-06-18*
+
+- Fixed package.json not being valid json, grunt now works for package builds.
+- Added request of bigger font size. Max font size is 40, raised from 18, minimum lowered to 8 from 10.
+- Fixed issue with 4chanx update breaking OneeChan.
+
 ### v5.8.7
 *2019-06-17*
 
