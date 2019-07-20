@@ -4048,6 +4048,12 @@
             } else
                 var mascot = $SS.conf["Mascots"][index];
 
+            if (mascot == undefined){
+                this.img = new $SS.Image(null);
+                this.hidden = true;
+                return;
+            }
+
             this.index = index;
             this.hidden = $SS.conf["Hidden Mascots"].indexOf(index) !== -1;
             this.default = mascot.default;
