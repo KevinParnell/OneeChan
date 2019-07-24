@@ -1,12 +1,17 @@
+### v5.8.9
+*2019-07-24*
+
+- Fixed issue of if the previously selected mascot was the last mascot on the list and a mascot was removed, OneeChan fails to start with error "TypeError 'mascot' is undefined" in the browser console.
+
 ### v5.8.8
-*2019-06-18*
+*2019-07-18*
 
 - Fixed package.json not being valid json, grunt now works for package builds.
 - Added request of bigger font size. Max font size is 40, raised from 18, minimum lowered to 8 from 10.
 - Fixed issue with 4chanx update breaking OneeChan.
 
 ### v5.8.7
-*2019-06-17*
+*2019-07-17*
 
 - Many updates since this has been updated, and maintained. Read top of README.md for more information on what has changed.
 - Mascots changing on updates has been resolved. This is the last update where your mascot will change. See https://github.com/KevinParnell/OneeChan/issues/18 for full explanation
