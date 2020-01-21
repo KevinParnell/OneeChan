@@ -1,6 +1,8 @@
-#### Current version - 5.8.9
+#### Current version - 5.9.0
 
 If you want to talk directly with me about stuff feel free to visit my [technical support Discord server](https://discord.gg/BPxUHXj)
+
+Jan 2020 Update - Updated OneeChan to 5.9.0. Added more font options (fonts must be installed on your system), all available mascots have been ported over to a new host (onee.moe), and a new user theme has been added (Stalenhag)
 
 Jul 2019 Update 3 - The issue of if the previously selected mascot was the last mascot on the list and a mascot was removed, OneeChan fails to start with error "TypeError 'mascot' is undefined" in the browser console has been fixed
 
