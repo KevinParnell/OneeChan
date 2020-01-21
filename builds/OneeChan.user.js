@@ -274,6 +274,9 @@
                     value: "Roboto"
                 }, {
                     name: "Verdana",
+                    value: "Verdana"
+                }, {
+                    name: "Noto",
                     value: "Noto"
                 }, {
                     name: "PT Sans",
