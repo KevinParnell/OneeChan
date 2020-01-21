@@ -1,4 +1,4 @@
-#### Current version - 5.9.0
+#### Current version - 5.9.1
 
 If you want to talk directly with me about stuff feel free to visit my [technical support Discord server](https://discord.gg/BPxUHXj)
 
