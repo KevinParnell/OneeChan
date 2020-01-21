@@ -267,6 +267,27 @@
                     name: "Lucida Grande",
                     value: "Lucida Grande"
                 }, {
+                    name: "Deja Vu Sans",
+                    value: "Deja Vu Sans"
+                }, {
+                    name: "Roboto",
+                    value: "Roboto"
+                }, {
+                    name: "Verdana",
+                    value: "Noto"
+                }, {
+                    name: "PT Sans",
+                    value: "PT Sans"
+                }, {
+                    name: "Liberation",
+                    value: "Liberation"
+                }, {
+                    name: "Source Sans",
+                    value: "Source Sans"
+                }, {
+                    name: "Libre Baskerville",
+                    value: "Libre Baskerville"
+                }, {
                     name: "Helvetica",
                     value: "Helvetica"
                 }]
