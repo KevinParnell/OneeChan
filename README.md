@@ -2,7 +2,7 @@
 
 If you want to talk directly with me about stuff feel free to visit my [technical support Discord server](https://discord.gg/dNnrzs4rMb)
 
-Jan 2021 Update - Updatged Oneechan to 5.9.3. New waifu (Makima)
+Jan 2021 Update - Updated Oneechan to 5.9.3. New waifu (Makima)
 
 Jan 2020 Update - Updated OneeChan to 5.9.2. Added more font options (fonts must be installed on your system), all available mascots have been ported over to a new host (onee.moe), and a new user theme has been added (Stalenhag)
 
