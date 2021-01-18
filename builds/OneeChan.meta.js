@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name OneeChan
-// @version 5.9.2
+// @version 5.9.3
 // @namespace OneeChan
 // @description Customizable rice and themes for 4chan X.
 // @author Kevin Parnell
