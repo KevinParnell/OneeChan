@@ -72,8 +72,6 @@ if you are encountering this error (can be seen with any theme):
 (Updated 2015-03-03)
 
 - [ccd0](https://github.com/ccd0/4chan-x) /// `Compatible` (Recommended)
-- [loadletter](https://github.com/loadletter/4chan-x) /// `Compatible`
-- [inline](https://boards.4chan.org/) /// `No`
 
 ccd0's 4chan X is the recommended 4chan X version and the one OneeChan is primarily developed for. If you use another 4chan X version, please make sure you select your fork version under `Compatibility` in OneeChan options. Enabling Quick Reply, Persistent QR and Auto Hide QR in 4chan X is recommended for maximum compatibility.
 
