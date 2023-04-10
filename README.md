@@ -69,7 +69,7 @@ if you are encountering this error (can be seen with any theme):
 
 #### Compatibility with 4chan X forks and others:
 
-(Updated 2015-03-03)
+(Updated 2023-04-10)
 
 - [ccd0](https://github.com/ccd0/4chan-x) /// `Compatible` (Recommended)
 
