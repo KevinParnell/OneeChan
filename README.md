@@ -106,8 +106,8 @@ Just import them and it'll ask to reload the page.
 
 Catalog
 
-![image](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/catalog.png)
+![image](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/catalog1.png)
 
 Thread
 
-![image](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/thread.png)
+![image](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/thread1.png)
