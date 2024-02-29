@@ -1,3 +1,8 @@
+### v5.9.0
+*2024-02-28*
+
+- Removed more mascots button.
+
 ### v5.8.9
 *2019-07-24*
 
