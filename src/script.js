@@ -1423,7 +1423,6 @@
                     p = $("<p class='buttons-container'>");
 
                 p.append($("<a class='options-button' name=addMascot title='Add a new mascot.'>Add", tOptions).bind("click", $SS.options.showMascot));
-                p.append($("<a class='options-button' href='http://appchan.booru.org/' title='Get more mascots. Possibly NSFW.' target='_blank'>More Mascots"));
                 p.append($("<a class='options-button' name=restoreMascots title='Restore hidden default mascots'>Restore", tOptions)
                     .bind("click", function() {
                         $SS.conf["Hidden Mascots"] = [];
