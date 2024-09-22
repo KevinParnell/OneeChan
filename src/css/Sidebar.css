@@ -35,16 +35,6 @@
   min-width: 100% !important;
   height: 56px !important;
 }
-/* Vertical QR */
-:root.vertical-qr:root.left-sidebar #qr {
-  transform: translateX(-100%);
-}
-:root.vertical-qr:root.left-sidebar #qr .move {
-  transform: rotate(90deg);
-  transform-origin: bottom right;
-  left: 63.5%;
-  bottom: 46px;
-}
 /* SS-like Sidebar */
 :root.ss-sidebar body::before {
   background:rgba\(" + $SS.theme.mainColor.shiftRGB(-18) + ",." + ($SS.theme.mainColor.isDark ? 9 : 2) + ");
