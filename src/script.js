@@ -359,7 +359,7 @@
         VERSION = "<%= version %>",
         CHANGELOG = "https://github.com/KevinParnell/OneeChan/blob/<%= meta.mainBranch %>/CHANGELOG.md",
         inputImages = "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAgCAYAAAAv8DnQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAP9JREFUOMvV0CFLQ2EYxfHfrtdiURgbmCxOmFPBJgZZ0CQD0Q+goFkwabWIyWIWFgwmy7Qp7DPI3GD7ACZlYLNcy31ljG0aDHrSy3N43nOef6ZULBiifczEQ8wV7OAtGmBO4wgfOI2whsXUnMAJ8rhCJ8IxDpHDHpZwixqM5XPZBBtYxioauEgjRLjBI2bRxTneQ6EYCS4xiTu89DbONJrtP88hwnV64hm28YRqyPsFDkmSGKUYFubnsqignM7rqDWa7dcAqoLdnsXwrgZQ5QG/l8MVIxX1ZPar/lUyUOsv+aMzv+0Qw3OrM4VNrKfzB9yXioVu6LDVx+EA4/+Gwycw/Uz36O07WwAAAABJRU5ErkJggg==",
-        fontListSWF = "https://ahodesuka.github.com/FontList.swf",
+        fontListSWF = "https://ahodesuka.github.io/FontList.swf",
         themeInputs = [{
             dName: "Reply Background",
             name: "mainColor",
@@ -1196,8 +1196,8 @@
                         "<a class='options-button' title='Export your settings as JSON.' name=Export>Export</a><a class='options-button' id='import-settings'><input type=file class='import-input' riced=true accept='application/json'>Import</a><a class='options-button' title='Reset OneeChan settings.' name=resetSettings>Reset</a>" +
                         "<span id=oneechan-version><span>OneeChan</span> v" + VERSION + "<span class=link-delim> | </span>" +
                         "<a href='https://github.com/KevinParnell/OneeChan/wiki' id=changelog-link target='_blank' title='Learn about OneeChan.'>Wiki</a><span class=link-delim> | </span>" +
-                        "<a href='https://github.com/KevinParnell/OneeChan/blob/master/CHANGELOG.md' id=changelog-link target='_blank' title='Read the changelog.'>Changelog</a><span class=link-delim> | </span>" +
-                        "<a href='https://github.com/KevinParnell/OneeChan/blob/master/CONTRIBUTING.md#reporting-bugs-and-suggestions' id=issues-link target='_blank' title='Report an issue.'>Issues</a></p>",
+                        "<a href='https://github.com/KevinParnell/OneeChan/blob/<%= meta.mainBranch %>/CHANGELOG.md' id=changelog-link target='_blank' title='Read the changelog.'>Changelog</a><span class=link-delim> | </span>" +
+                        "<a href='https://github.com/KevinParnell/OneeChan/blob/<%= meta.mainBranch %>/CONTRIBUTING.md#reporting-bugs-and-suggestions' id=issues-link target='_blank' title='Report an issue.'>Issues</a></p>",
                         key, val, des;
 
                     for (key in defaultConfig) {
@@ -1545,6 +1545,11 @@
                     e.preventDefault();
                     e.stopPropagation();
                     $SS.options.show();
+                }
+                if (e.ctrlKey && e.keyCode === 113) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    $SS.init(true);
                 }
             },
             loadSystemFonts: function(evt) {
@@ -2809,6 +2814,7 @@
                 authorName: "Seaweed",
                 authorTrip: "!!lq+3fff+/ev",
                 "default": true,
+                bgImg: false,
                 replyOp: "1.0",
                 navOp: "0.9",
                 bgColor: "20211c",
@@ -2842,6 +2848,7 @@
                 authorName: "Seaweed",
                 authorTrip: "!!lq+3fff+/ev",
                 "default": true,
+                bgImg: false,
                 replyOp: "1.0",
                 navOp: "0.9",
                 bgColor: "e9eced",
@@ -2875,6 +2882,7 @@
                 authorName: "Leagle",
                 authorTrip: "!YoGiiH6Oi.",
                 "default": true,
+                bgImg: false,
                 replyOp: "1.0",
                 navOp: "0.9",
                 mainColor: "222222",
@@ -2909,6 +2917,7 @@
                 authorName: "Kori",
                 authorTrip: "!STRaW/KORI",
                 "default": true,
+                bgImg: false,
                 replyOp: "1.0",
                 navOp: "0.9",
                 mainColor: "fcfcfc",
@@ -2942,6 +2951,7 @@
                 authorName: "Zixaphir",
                 authorTrip: "!M.........",
                 "default": true,
+                bgImg: false,
                 replyOp: "1.0",
                 navOp: "0.9",
                 mainColor: "1c1c1c",
@@ -2975,6 +2985,7 @@
                 authorName: "Jelloman",
                 authorTrip: "!anon......",
                 "default": true,
+                bgImg: false,
                 replyOp: "1.0",
                 navOp: "0.9",
                 mainColor: "40404f",
@@ -3008,6 +3019,7 @@
                 authorName: "Jelloman",
                 authorTrip: "!anon......",
                 "default": true,
+                bgImg: false,
                 replyOp: "1.0",
                 navOp: "0.9",
                 mainColor: "545454",
@@ -3076,6 +3088,7 @@
                 authorName: "iluvOP",
                 authorTrip: "Tripfags can die.",
                 "default": true,
+                bgImg: false,
                 replyOp: "1.0",
                 navOp: "0.9",
                 mainColor: "242436",
