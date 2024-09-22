@@ -948,10 +948,12 @@
                 if (!$SS.conf["Show Top Ad"]) {
                     $(".topad.center").remove();
                     $(".aboveMidAd.center").remove();
+                    $("#danbo-s-t.danbo-slot").remove();
                 } else if (!$SS.conf["Show Middle Ad"]) {
                     $(".middlead.center").remove();
                 } else if (!$SS.conf["Show Bottom Ad"]) {
                     $(".bottomad.center").remove();
+                    $("#danbo-s-b.danbo-slot").remove();
                 }
 
                 // things that need to change after 4chan X loads.
