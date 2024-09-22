@@ -374,6 +374,23 @@ select:focus,
   padding: 3px 6px !important;
   border: 1px solid;
 }
+:root.style-stats.fourchan-xt:not(.float) #thread-stats,
+:root.style-stats.fourchan-xt:not(.float) #updater,
+:root.style-stats.fourchan-xt:not(.float) #stats {
+  padding: 0px 6px !important;
+}
+:root.style-stats.fourchan-xt:not(.float) #header-bar .menu-button i {
+    border-top: .5em solid;
+    border-right: .36em solid transparent;
+    border-left: .36em solid transparent;
+    margin: .36em .16em;
+}
+:root.style-stats.shortcut-icons.fourchan-xt:not(.float) #shortcuts .shortcut {
+  height: 1.25em;
+}
+:root.style-stats.shortcut-icons.fourchan-xt:not(.float) #shortcuts svg.icon {
+  height: 1.14em;
+}
 /* Mascots */
 :root.mascot-grayscale #mascot img {
   filter: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 height=%220%22 color-interpolation-filters=%22sRGB%22><filter id=%22grayscale%22><feColorMatrix id=%22color%22 type=%22saturate%22 values=%220%22 /></filter></svg>#grayscale');
@@ -429,4 +446,10 @@ select:focus,
   ::-webkit-scrollbar {
     width: 8px;
   }
+}
+/* 4chan XT: fxtwitter embed card */
+.fxt-card {
+  color: " + $SS.theme.textColor.hex + " !important;
+  background-color: rgba(" + $SS.theme.bgColor.rgb + "," + $SS.theme.replyOp + ") !important;
+  border: 1px solid " + $SS.theme.brderColor.hex + " !important;
 }

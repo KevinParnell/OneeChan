@@ -27,7 +27,7 @@
   margin: 0 !important;
 }
 #qr-file-button,
-#qr-filename-container {
+#qr-filename-container:not(:root.fourchan-xt #qr-filename-container) {
   margin-right: 1px !important;
 }
 #qr-spoiler-label + input[type='submit'] {
