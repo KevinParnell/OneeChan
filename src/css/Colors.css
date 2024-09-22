@@ -393,3 +393,40 @@ select:focus,
 #swf-embed-close {
   right: 1px !important;
 }
+/* Scrollbars */
+:root.css-bars {
+  scrollbar-color: " + $SS.theme.titleColor.hex + " " + $SS.theme.bgColor.hex + ";
+}
+:root.css-bars .field {
+  scrollbar-color: " + $SS.theme.textColor.hex +" " + $SS.theme.inputColor.hex + ";
+}
+:root.thin-bars:not(.webkit-bars),
+:root.thin-bars:not(.webkit-bars) .field,
+:root.thin-bars:not(.webkit-bars) .options-section,
+:root.thin-bars:not(.webkit-bars) .section-container,
+:root.thin-bars:not(.webkit-bars) #sauce-doc {
+    scrollbar-width: thin;
+}
+:root.webkit-bars {
+  ::-webkit-scrollbar {
+    width: 12px;
+    background-color: " + $SS.theme.bgColor.hex + ";
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: " + $SS.theme.titleColor.hex + ";
+  }
+  .field::-webkit-scrollbar {
+    background-color: " + $SS.theme.inputColor.hex + ";
+  }
+  .field::-webkit-scrollbar-thumb {
+    background-color: " + $SS.theme.textColor.hex + ";
+  }
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+}
+:root.webkit-bars.thin-bars {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+}

@@ -217,6 +217,20 @@
                     value: "solid"
                 }]
             ],
+            ":: Scrollbars": ["header", ""],
+            "Scrollbar Type": [
+                0, "Set how scrollbars are rendered.", [{
+                    name: "Default",
+                    value: 0
+                }, {
+                    name: "CSS",
+                    value: 1
+                }, {
+                    name: "Webkit",
+                    value: 2
+                }]
+            ],
+            "Thin Scrollbars": [false, "Use thin style scrollbars."],
             ":: Fonts": ["header", ""],
             "Font Family": [
                 "sans-serif", "Set the default font family.", [{
@@ -3537,6 +3551,9 @@
                 $("html").optionClass("Justified Text", true, "catalog-justify");
                 $("html").optionClass("Show Background", true, "catalog-background");
                 $("html").optionClass("Unified Thumbnail Size", true, "catalog-thumbsize");
+                $("html").optionClass("Scrollbar Type", 1, "css-bars");
+                $("html").optionClass("Scrollbar Type", 2, "webkit-bars");
+                $("html").optionClass("Thin Scrollbars", true, "thin-bars");
             }
         },
 
