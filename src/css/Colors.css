@@ -135,7 +135,6 @@ body {
 body.is_catalog .panel,
 :root.catalog-mode .panel,
 .dialog,
-.tab-label,
 #post-preview,
 #tegaki,
 .boxbar,
@@ -143,10 +142,20 @@ body.is_catalog .panel,
 .flashListing tr:nth-of-type(2n+1),
 .dd-menu ul,
 :root.catalog-hover-expand .catalog-container:hover > .post {
-  background: rgba(" + $SS.theme.mainColor.rgb + "," + $SS.theme.replyOp + ")!important;
+  background: rgba(" + $SS.theme.mainColor.rgb + "," + $SS.theme.replyOp + ") !important;
 }
-:root.recolor-even .thread>.replyContainer:nth-of-type(even):not(.hidden) .post {
-  background: rgb\(" + $SS.theme.mainColor.shiftRGB(-10) + ") !important;
+.tab-label,
+#add-mascot,
+#fourchanx-settings,
+#oneechan-options {
+  background: rgb\(" + $SS.theme.mainColor.rgb + ") !important;
+}
+:root.recolor-even .thread>.replyContainer:nth-of-type(even):not(.hidden) .post:not(.reply:target),
+:root.recolor-even .flashListing tr:nth-of-type(2n):not(.highlightPost) {
+  background: rgba(" + $SS.theme.mainColor.shiftRGB(-10) + "," + $SS.theme.replyOp + ") !important;
+}
+.flashListing tr:nth-of-type(2n) {
+  background: rgba(" + $SS.theme.bgColor.rgb + "," + $SS.theme.replyOp + ");
 }
 :root:not(.header-gradient) #header-bar {
   background: rgba(" + $SS.theme.headerBGColor.rgb + "," + $SS.theme.navOp + ") !important;

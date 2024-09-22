@@ -328,7 +328,7 @@ table.flashListing {
   margin-bottom: 20px;
 }
 table.flashListing .highlightPost {
-  background: rgb\(" + $SS.theme.mainColor.shiftRGB(-25) + ") !important;
+  background: rgba(" + $SS.theme.mainColor.shiftRGB(-25) + "," + $SS.theme.replyOp + ") !important;
 }
 .flashListing td {
   padding-left: 4px !important;
@@ -455,4 +455,8 @@ select {
   overflow-wrap: break-word;
   word-break: break-word;
   margin-bottom: 15px; /* unrelated to issue #90 */
+}
+td.teaser-col {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
