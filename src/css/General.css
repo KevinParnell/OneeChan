@@ -335,8 +335,11 @@ table.flashListing .highlightPost {
   padding-right: 4px !important;
   text-align: center !important;
 }
-#delform[action='https://sys.4chan.org/f/up.php'],
-#delform[action='https://sys.4chan.org/f/up.php'] .postblock {
+#swf-embed {
+  z-index: 21;
+}
+#delform[action='https://sys.4chan.org/f/imgboard.php'],
+#delform[action='https://sys.4chan.org/f/imgboard.php'] .postblock {
   background: none !important;
   border: none !important;
   box-shadow: none !important;
