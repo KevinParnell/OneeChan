@@ -27,8 +27,8 @@
   right: auto !important;
 }
 :root.right-sidebar #qr {
-  right: 0 !important;
-  left: auto !important;
+  right: auto;
+  left: auto;
 }
 .captcha-img,
 .captcha-img img {
