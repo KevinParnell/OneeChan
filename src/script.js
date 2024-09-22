@@ -91,6 +91,7 @@
                     value: 3
                 }]
             ],
+            "Tether QR to Sidebar": [true, "Sets QR to the vertical bounds of the sidebar"],
             "Transparent QR": [false, "Reduces opacity of the QR box."],
             "Remove Background": [false, "Removes the QR background."],
             "Remove Controls": [false, "Removes the QR controls and checkbox."],
@@ -3506,6 +3507,7 @@
                 $("html").optionClass("Backlinks on Bottom", true, "backlink-bottom");
                 $("html").optionClass("Autohide Style", 2, "vertical-qr");
                 $("html").optionClass("Autohide Style", 3, "fade-qr");
+                $("html").optionClass("Tether QR to Sidebar", false, "qr-float");
                 $("html").optionClass("Transparent QR", true, "qr-opacity");
                 $("html").optionClass("Remove Background", true, "qr-background");
                 $("html").optionClass("Remove Controls", true, "qr-controls");

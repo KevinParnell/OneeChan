@@ -22,13 +22,14 @@
 :root.fixed:not(.autohide):not(.bottom) .boardBanner {
   margin-top: -6px;
 }
-:root.left-sidebar #qr {
+:root.left-sidebar:not(.qr-float) #qr,
+:root.vertical-qr.left-sidebar #qr {
   left: 0 !important;
   right: auto !important;
 }
-:root.right-sidebar #qr {
-  right: auto;
-  left: auto;
+:root.right-sidebar:not(.qr-float) #qr {
+  right: 0 !important;
+  left: auto !important;
 }
 .captcha-img,
 .captcha-img img {
