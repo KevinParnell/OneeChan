@@ -1,3 +1,4 @@
+// ==UserScript==
 // @name <%= meta.name %>
 // @version <%= version %>
 // @namespace <%= name %>
