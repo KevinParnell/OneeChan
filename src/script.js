@@ -231,11 +231,14 @@
                     name: "Consolas",
                     value: "Consolas"
                 }, {
-                    name: "Droid Sans",
-                    value: "Droid Sans"
+                    name: "Open Sans",
+                    value: "Open Sans"
                 }, {
                     name: "Segoe UI",
                     value: "Segoe UI"
+                }, {
+                    name: "Verdana",
+                    value: "Verdana"
                 }, {
                     name: "Calibri",
                     value: "Calibri"
@@ -243,35 +246,74 @@
                     name: "Arial",
                     value: "Arial"
                 }, {
-                    name: "Lucida Grande",
-                    value: "Lucida Grande"
+                    name: "SF Pro",
+                    value: "SF Pro"
                 }, {
-                    name: "Deja Vu Sans",
-                    value: "Deja Vu Sans"
+                    name: "Helvetica",
+                    value: "Helvetica"
+                }, {
+                    name: "DejaVu Sans",
+                    value: "DejaVu Sans"
+                }, {
+                    name: "DejaVu Serif",
+                    value: "DejaVu Serif"
+                }, {
+                    name: "DejaVu Mono",
+                    value: "DejaVu Sans Mono"
                 }, {
                     name: "Roboto",
                     value: "Roboto"
                 }, {
-                    name: "Verdana",
-                    value: "Verdana"
+                    name: "Roboto Serif",
+                    value: "Roboto Serif 20pt"
                 }, {
-                    name: "Noto",
-                    value: "Noto"
+                    name: "Roboto Mono",
+                    value: "Roboto Mono"
+                }, {
+                    name: "Noto Sans",
+                    value: "Noto Sans"
+                }, {
+                    name: "Noto Serif",
+                    value: "Noto Serif"
+                }, {
+                    name: "Noto Sans Mono",
+                    value: "Noto Sans Mono"
                 }, {
                     name: "PT Sans",
                     value: "PT Sans"
                 }, {
-                    name: "Liberation",
-                    value: "Liberation"
+                    name: "PT Serif",
+                    value: "PT Serif"
+                }, {
+                    name: "PT Mono",
+                    value: "PT Mono"
+                }, {
+                    name: "Liberation Sans",
+                    value: "Liberation Sans"
+                }, {
+                    name: "Liberation Serif",
+                    value: "Liberation Serif"
+                }, {
+                    name: "Liberation Mono",
+                    value: "Liberation Mono"
                 }, {
                     name: "Source Sans",
-                    value: "Source Sans"
+                    value: "Source Sans 3"
+                }, {
+                    name: "Source Serif",
+                    value: "Source Serif 4"
+                }, {
+                    name: "Source Code",
+                    value: "Source Code Pro"
                 }, {
                     name: "Libre Baskerville",
                     value: "Libre Baskerville"
                 }, {
-                    name: "Helvetica",
-                    value: "Helvetica"
+                    name: "Libre Franklin",
+                    value: "Libre Franklin"
+                }, {
+                    name: "Dosis",
+                    value: "Dosis"
                 }]
             ],
             "Font Size": [13, "Set the general size of text (Pixels). Min: 8px, Max: 40px"],
