@@ -91,7 +91,7 @@
                     value: 3
                 }]
             ],
-            "Tether QR to Sidebar": [true, "Sets QR to the vertical bounds of the sidebar"],
+            "Tether QR to Sidebar": [true, "Sets QR to the vertical bounds of the sidebar. Disable for floating QR."],
             "Transparent QR": [false, "Reduces opacity of the QR box."],
             "Remove Background": [false, "Removes the QR background."],
             "Remove Controls": [false, "Removes the QR controls and checkbox."],
@@ -329,6 +329,9 @@
                 }, {
                     name: "Dosis",
                     value: "Dosis"
+                }, {
+                    name: "GorDIN",
+                    value: "GorDIN"
                 }]
             ],
             "Font Size": [13, "Set the general size of text (Pixels). Min: 8px, Max: 40px"],

@@ -1,3 +1,8 @@
+### v5.10.1
+*2024-11-16*
+
+- Add GorDIN as a font option. You can install the font from your HL2 install (hl2_complete/resource/)
+
 ## v5.10.0
 *2024-09-22*
 
