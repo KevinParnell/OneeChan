@@ -186,3 +186,7 @@ input[type="number"] {
 ::-webkit-outer-spin-button { 
   -webkit-appearance: none;
 }
+/* 4chan XT */
+#file-n-submit .row.space {
+  margin-top: 1px;
+}

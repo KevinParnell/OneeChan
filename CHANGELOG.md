@@ -1,6 +1,16 @@
+### v5.10.2
+*2024-11-28*
+
+**SystemPatch**
+- Fix issues in ad removal code in script
+- Danbo ads are now fully accounted for and adjusted
+- [Advertise on 4chan] banner can be toggled independently
+- Updated settings
+
 ### v5.10.1
 *2024-11-16*
 
+**SystemPatch**
 - Add GorDIN as a font option. You can install the font from your HL2 install (hl2_complete/resource/)
 
 ## v5.10.0
