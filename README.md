@@ -1,6 +1,48 @@
-#### Current version - 5.9.3
+#### Current version - 5.10.2
 
 If you want to talk directly with me about stuff feel free to visit my [technical support Discord server](https://discord.gg/dNnrzs4rMb)
+
+### v5.10.2
+*2024-11-28*
+
+**SystemPatch**
+- Fix issues in ad removal code in script
+- Danbo ads are now fully accounted for and adjusted
+- [Advertise on 4chan] banner can be toggled independently
+- Updated settings
+
+### v5.10.1
+*2024-11-16*
+
+**SystemPatch**
+- Add GorDIN as a font option. You can install the font from your HL2 install (hl2_complete/resource/)
+
+## v5.10.0
+*2024-09-22*
+
+**SystemPatch**
+- Fix source code to be grunt buildable again.
+- 4Chan XT support: Header icon, fxtwitter embeds, and XT specific adjustments.
+- Add clip setting for mascots.
+- Add 'Untether QR from Sidebar' option. Allows for floating QR identical to X (Properly fixes [#11](https://github.com/KevinParnell/OneeChan/issues/11)).
+- Adjust styling for QR so some elements don't end up slightly smaller than minimal size when Force QR is disabled
+- Recolored replies now use the theme's reply opacity (Fixes [#5](https://github.com/KevinParnell/OneeChan/issues/5)) and will not overwrite the highlight of linked replies.
+- X and Oneechan settings will no longer use the theme's reply opacity (Fixes [#6](https://github.com/KevinParnell/OneeChan/issues/6)).
+- Set Quick Reinitilize to <kbd>CTRL</kbd> + <kbd>F2</kbd>
+- Add z-index to /f/'s Ruffle embed
+- Add a background to the table cells in the expired threads archive and /f/. Improves readability if using a BG image.
+- Wordbreak added to the expired threads archive's excerpt column. Prevents the table from pushing under the sidebar in some cases.
+- Add support for styling the scrollbar. Full CSS and color only Webkit support. Uses the selected theme's 'Header Text' and 'Body Background' colors for the main scrollbar, and 'Text' and 'Input Background' colors for text boxes. For Webkit, it will also force width size and hide scrollbar buttons, so add '!important' to your customCSS code where necessary.
+- Cleanup and tweaks to CSS relating to SS-like Sidebar.
+- Fixed a couple Font Family names on the new fonts, and added additional fonts to round out the selection. Each font will need to be installed locally before they can be used.
+- Full list of added fonts (Sans/Serif/Mono) with download links: Verdana, [DejaVu](https://dejavu-fonts.github.io), [Roboto](https://fonts.google.com/?query=Roboto), [Noto](https://fonts.google.com/noto/fonts), [PT](https://fonts.google.com/?query=ParaType), [Liberation](https://github.com/liberationfonts/liberation-fonts/releases), [Source](https://fonts.google.com/?query=Source), and [Libre/Dosis](https://fonts.google.com/?query=Impallari+Type)
+- Replaced older fonts with modern variants: [Open Sans](https://fonts.google.com/specimen/Open+Sans) (replacing Droid Sans) and [SF Pro](https://developer.apple.com/fonts/) (replacing Lucida Grande)
+- Update URLs in script.
+- Hide [Advertise on 4Chan] banner.
+- Added theme: Prisma Magica
+
+**breaktrace**
+- Removed more mascots button (Pull Request [#57](https://github.com/KevinParnell/OneeChan/pull/57)).
 
 Jan 2021 Update - Updated Oneechan to 5.9.3. New waifu (Makima)
 
