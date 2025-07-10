@@ -1,3 +1,4 @@
+
 ### v5.10.2
 *2024-11-28*
 
@@ -57,6 +58,12 @@
 - Added more font options (fonts must be installed on your system)
 - All available mascots have been ported over to a new host (onee.moe)
 - A new user theme has been added (Stalenhag)
+
+### v5.9.0
+*2024-02-28*
+
+- Removed more mascots button.
+
 
 ### v5.8.9
 *2019-07-24*
