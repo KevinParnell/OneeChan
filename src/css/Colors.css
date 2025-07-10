@@ -135,7 +135,6 @@ body {
 body.is_catalog .panel,
 :root.catalog-mode .panel,
 .dialog,
-.tab-label,
 #post-preview,
 #tegaki,
 .boxbar,
@@ -143,10 +142,20 @@ body.is_catalog .panel,
 .flashListing tr:nth-of-type(2n+1),
 .dd-menu ul,
 :root.catalog-hover-expand .catalog-container:hover > .post {
-  background: rgba(" + $SS.theme.mainColor.rgb + "," + $SS.theme.replyOp + ")!important;
+  background: rgba(" + $SS.theme.mainColor.rgb + "," + $SS.theme.replyOp + ") !important;
 }
-:root.recolor-even .thread>.replyContainer:nth-of-type(even):not(.hidden) .post {
-  background: rgb\(" + $SS.theme.mainColor.shiftRGB(-10) + ") !important;
+.tab-label,
+#add-mascot,
+#fourchanx-settings,
+#oneechan-options {
+  background: rgb\(" + $SS.theme.mainColor.rgb + ") !important;
+}
+:root.recolor-even .thread>.replyContainer:nth-of-type(even):not(.hidden) .post:not(.reply:target),
+:root.recolor-even .flashListing tr:nth-of-type(2n):not(.highlightPost) {
+  background: rgba(" + $SS.theme.mainColor.shiftRGB(-10) + "," + $SS.theme.replyOp + ") !important;
+}
+.flashListing tr:nth-of-type(2n) {
+  background: rgba(" + $SS.theme.bgColor.rgb + "," + $SS.theme.replyOp + ");
 }
 :root:not(.header-gradient) #header-bar {
   background: rgba(" + $SS.theme.headerBGColor.rgb + "," + $SS.theme.navOp + ") !important;
@@ -365,6 +374,23 @@ select:focus,
   padding: 3px 6px !important;
   border: 1px solid;
 }
+:root.style-stats.fourchan-xt:not(.float) #thread-stats,
+:root.style-stats.fourchan-xt:not(.float) #updater,
+:root.style-stats.fourchan-xt:not(.float) #stats {
+  padding: 0px 6px !important;
+}
+:root.style-stats.fourchan-xt:not(.float) #header-bar .menu-button i {
+    border-top: .5em solid;
+    border-right: .36em solid transparent;
+    border-left: .36em solid transparent;
+    margin: .36em .16em;
+}
+:root.style-stats.shortcut-icons.fourchan-xt:not(.float) #shortcuts .shortcut {
+  height: 1.25em;
+}
+:root.style-stats.shortcut-icons.fourchan-xt:not(.float) #shortcuts svg.icon {
+  height: 1.14em;
+}
 /* Mascots */
 :root.mascot-grayscale #mascot img {
   filter: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 height=%220%22 color-interpolation-filters=%22sRGB%22><filter id=%22grayscale%22><feColorMatrix id=%22color%22 type=%22saturate%22 values=%220%22 /></filter></svg>#grayscale');
@@ -383,4 +409,47 @@ select:focus,
 }
 #swf-embed-close {
   right: 1px !important;
+}
+/* Scrollbars */
+:root.css-bars {
+  scrollbar-color: " + $SS.theme.titleColor.hex + " " + $SS.theme.bgColor.hex + ";
+}
+:root.css-bars .field {
+  scrollbar-color: " + $SS.theme.textColor.hex +" " + $SS.theme.inputColor.hex + ";
+}
+:root.thin-bars:not(.webkit-bars),
+:root.thin-bars:not(.webkit-bars) .field,
+:root.thin-bars:not(.webkit-bars) .options-section,
+:root.thin-bars:not(.webkit-bars) .section-container,
+:root.thin-bars:not(.webkit-bars) #sauce-doc {
+    scrollbar-width: thin;
+}
+:root.webkit-bars {
+  ::-webkit-scrollbar {
+    width: 12px;
+    background-color: " + $SS.theme.bgColor.hex + ";
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: " + $SS.theme.titleColor.hex + ";
+  }
+  .field::-webkit-scrollbar {
+    background-color: " + $SS.theme.inputColor.hex + ";
+  }
+  .field::-webkit-scrollbar-thumb {
+    background-color: " + $SS.theme.textColor.hex + ";
+  }
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+}
+:root.webkit-bars.thin-bars {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+}
+/* 4chan XT: fxtwitter embed card */
+.fxt-card {
+  color: " + $SS.theme.textColor.hex + " !important;
+  background-color: rgba(" + $SS.theme.bgColor.rgb + "," + $SS.theme.replyOp + ") !important;
+  border: 1px solid " + $SS.theme.brderColor.hex + " !important;
 }

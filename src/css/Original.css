@@ -176,12 +176,13 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
-.center {
+.center,
+.danbo-slot,
+.adl {
   text-align: center !important;
 }
-.middlead,
-.topad {
-  margin-bottom: 20px !important;
+.adl {
+    font-size: .76em;
 }
 #qf-box {
     width: 120px;

@@ -201,7 +201,8 @@ input[type=checkbox]:checked+.riceCheck::before {
 :root:not(.fixed) .boardBanner {
   top: 0;
 }
-.center {
+.center,
+.danbo-slot {
   margin: 5px !important;
 }
 #full-board-list>a,
@@ -328,15 +329,18 @@ table.flashListing {
   margin-bottom: 20px;
 }
 table.flashListing .highlightPost {
-  background: rgb\(" + $SS.theme.mainColor.shiftRGB(-25) + ") !important;
+  background: rgba(" + $SS.theme.mainColor.shiftRGB(-25) + "," + $SS.theme.replyOp + ") !important;
 }
 .flashListing td {
   padding-left: 4px !important;
   padding-right: 4px !important;
   text-align: center !important;
 }
-#delform[action='https://sys.4chan.org/f/up.php'],
-#delform[action='https://sys.4chan.org/f/up.php'] .postblock {
+#swf-embed {
+  z-index: 21;
+}
+#delform[action='https://sys.4chan.org/f/imgboard.php'],
+#delform[action='https://sys.4chan.org/f/imgboard.php'] .postblock {
   background: none !important;
   border: none !important;
   box-shadow: none !important;
@@ -355,6 +359,7 @@ table.flashListing .highlightPost {
   width:" + $SS.mascot.width + ";
   max-width:" + $SS.mascot.maxwidth + ";
   transform: " + $SS.mascot.flip + ";
+  clip-path: inset(" + $SS.mascot.tclip + "px " + $SS.mascot.lclip + "px " + $SS.mascot.bclip + "px " + $SS.mascot.rclip + "px);
   pointer-events: none;
 }
 :root.left-sidebar #mascot img,
@@ -392,11 +397,13 @@ table.flashListing .highlightPost {
   z-index: -1;
 }
 /* Ads */
-:root.ad-opacity .center img {
+:root.ad-opacity .center img,
+:root.ad-opacity .danbo-slot {
   opacity: 0.5;
   transition: opacity .3s ease-out 0s;
 }
-:root.ad-opacity .center img:hover {
+:root.ad-opacity .center img:hover,
+:root.ad-opacity .danbo-slot:hover {
   opacity: 1.0 !important;
   transition: opacity .3s ease-in 0s;
 }
@@ -452,4 +459,8 @@ select {
   overflow-wrap: break-word;
   word-break: break-word;
   margin-bottom: 15px; /* unrelated to issue #90 */
+}
+td.teaser-col {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }

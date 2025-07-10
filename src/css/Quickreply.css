@@ -2,8 +2,10 @@
 #qr {
   box-shadow: none !important;
   border-radius: 0 !important;
-  min-width: 297px !important;
-  box-shadow: none !important;
+  min-width: 298px !important;
+}
+#qr:not(:root.vertical-qr #qr) .move {
+  min-width: 302px;
 }
 #qr .close {
   padding: 2px 3px 2px 4px !important;
@@ -25,7 +27,7 @@
   margin: 0 !important;
 }
 #qr-file-button,
-#qr-filename-container {
+#qr-filename-container:not(:root.fourchan-xt #qr-filename-container) {
   margin-right: 1px !important;
 }
 #qr-spoiler-label + input[type='submit'] {
@@ -56,6 +58,9 @@
 :root.expand-inputs .persona .field:focus {
   flex: 3;
 }
+#qr:not(:root.force-qr #qr) textarea {
+  min-width: 302px !important;
+}
 #qr:not(.has-captcha) textarea {
   min-height: 190px !important;
 }
@@ -84,30 +89,60 @@
   min-height: 58px !important;
   margin-bottom: 1px;
 }
+#t-resp {
+    width: 170px !important;
+}
 :root.force-qr #qr {
-  max-width: 297px;
+  max-width: 298px;
+}
+:root.force-qr.qr-background #qr {
+  margin-right: 1px !important;
+}
+:root.force-qr.qr-background.left-sidebar #qr {
+  margin-left: 1px !important;
+}
+:root.force-qr #qr textarea {
+  min-width: 298px;
 }
 /* Vertical QR */
 :root.vertical-qr #qr > div > label > div {
   display: none;
 }
-:root.vertical-qr #qr textarea {
+:root.vertical-qr #qr textarea,
+:root.force-qr #qr textarea {
   resize: vertical !important;
 }
 :root.vertical-qr #qr {
-  min-width: 297px !important;
+  min-width: 298px !important;
   top: auto !important;
   position: fixed;
   right: 0 !important;
   left: auto !important;
+  transform: translateX(100%);
+  transition: transform .3s ease-in-out .1s !important;
+}
+:root.vertical-qr.left-sidebar #qr {
+  transform: translateX(-100%);
+}
+:root.vertical-qr #qr:hover,
+:root.vertical-qr #qr.focus {
+  transform: translateX(0%) !important;
 }
 :root.vertical-qr #qr .move {
   position: absolute;
+  transform: rotate(-90deg);
+  right: 86%;
+  bottom: 88px;
   width: 105px;
   cursor: default;
   padding: 2px 0 2px 2px;
   text-align: center;
-  bottom: 88px;
+}
+:root.vertical-qr.left-sidebar #qr .move {
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+  left: 63.5%;
+  bottom: 46px;
 }
 :root.vertical-qr #qr:hover .move {
   transition: opacity .42s linear;
@@ -133,18 +168,6 @@
 :root.vertical-qr #qr > div > select {
   display: none;
 }
-:root.vertical-qr #qr:hover,
-:root.vertical-qr #qr.focus {
-  transform: translateX(0%) !important;
-}
-:root.vertical-qr #qr {
-  transform: translateX(100%);
-  transition: transform .3s ease-in-out .1s;
-}
-:root.vertical-qr #qr .move {
-  transform: rotate(-90deg);
-  right: 86%;
-}
 /* Fade QR */
 :root.fade-qr #qr form {
   display: block !important;
@@ -162,4 +185,8 @@ input[type="number"] {
 }
 ::-webkit-outer-spin-button { 
   -webkit-appearance: none;
+}
+/* 4chan XT */
+#file-n-submit .row.space {
+  margin-top: 1px;
 }
