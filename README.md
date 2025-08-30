@@ -76,21 +76,21 @@ Originally developed by [seaweedchan](https://github.com/seaweedchan), this fork
 
 #### Install instructions
 
-Installing [4chan X](https://github.com/ccd0/4chan-x) is **required** for Oneechan to work.
+Installing **[4chan X](https://github.com/ccd0/4chan-x)** is **required** for Oneechan to work.
 
-- Firefox: Requires the [Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) extension. Click the Install link above.
+- Firefox: Requires the **[Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)** extension. Click the Install link above.
 
-- Chrome: Requires the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl) extension. Click the Install link above.
+- Chrome: Requires the **[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl)** extension. Click the Install link above.
 
-- Pale Moon: Requires the [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/versions/?page=2#version-1.15.1-signed) extension. Click the Install link above.
+- Pale Moon: Requires the **[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/versions/?page=2#version-1.15.1-signed)** extension. Click the Install link above.
 
-- MS Edge: Requires the [Tampermonkey](https://www.microsoft.com/store/apps/9NBLGGH5162S) extension. Click the Install link above.
+- MS Edge: Requires the **[Tampermonkey](https://www.microsoft.com/en-us/microsoft-edge/insider-addons/detail/iikmkjmpaadaobahmlepeloendndfphd)** extension. Click the Install link above.
 
-- MS Edge Chromium: Requires the [Tampermonkey](https://www.microsoft.com/en-us/microsoft-edge/insider-addons/detail/iikmkjmpaadaobahmlepeloendndfphd) extension. Click the Install link above.
+- Safari: Requires the **[Tampermonkey](https://safari-extensions.apple.com/details/?id=net.tampermonkey.safari-G3XV72R5TC)** extension. Click the Install link above.
 
-- Safari: Requires the [Tampermonkey](https://safari-extensions.apple.com/details/?id=net.tampermonkey.safari-G3XV72R5TC) extension. Click the Install link above.
+If you would like to use a version of OneeChan that does not have mascots by default, check out **[StyleChan](https://github.com/3nly/StyleChan)**
 
-An optional script I would recommend is a (You) counter - [All-Time-You-Count](https://github.com/KevinParnell/All-time-You-count)
+An optional script if you want a (You) counter - **[All-Time-You-Count](https://github.com/KevinParnell/All-time-You-count)**
 
 #### Adblock/pihole filters fix:
 
@@ -113,7 +113,7 @@ if you are encountering this error (can be seen with any theme):
 
 (Updated 2023-04-10)
 
-- [ccd0](https://github.com/ccd0/4chan-x) /// `Compatible` (Recommended)
+- **[ccd0](https://github.com/ccd0/4chan-x)** /// `Compatible` (Recommended)
 
 ccd0's 4chan X is the recommended 4chan X version and the one OneeChan is primarily developed for. If you use another 4chan X version, please make sure you select your fork version under `Compatibility` in OneeChan options. Enabling Quick Reply, Persistent QR and Auto Hide QR in 4chan X is recommended for maximum compatibility.
 
@@ -153,3 +153,4 @@ Catalog
 Thread
 
 ![image](https://raw.githubusercontent.com/KevinParnell/OneeChan/master/images/thread1.png)
+
